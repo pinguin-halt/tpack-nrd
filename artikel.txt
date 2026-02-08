@@ -1,0 +1,126 @@
+Judul artikel  How Project-Based Learning Enhances Pre-Service Science Teachers’ Integrative Lesson Planning Competence: A Structural Equation Modeling Approach
+
+Rumusan Masalah
+
+RM1.
+
+Bagaimana perubahan kemampuan integrasi TPACK, STEM, dan ESD dalam RPP sebelum dan sesudah penerapan PjBL?
+
+📌 Fungsi RM ini
+	•	Memberikan evidence empiris awal
+	•	Menjawab apakah intervensi berdampak
+
+Analisis yang tepat:
+	•	Paired t-test / Wilcoxon
+	•	N-Gain (effect magnitude)
+	•	Deskriptif komparatif
+
+RM2.
+
+Apakah penerapan PjBL berpengaruh signifikan terhadap peningkatan kualitas desain RPP berbasis integrasi TPACK, STEM, dan ESD?
+
+📌 Fungsi RM ini
+	•	Menjawab hubungan kausal
+	•	Mengangkat level artikel dari “laporan peningkatan” menjadi “analisis pengaruh”
+
+Analisis yang tepat:
+	•	SEM-PLS (model langsung)
+
+Model contoh:
+PjBL → Integrasi TPACK
+PjBL → Integrasi STEM
+PjBL → Integrasi ESD
+
+RM3.
+
+Dimensi integrasi manakah (TPACK, STEM, atau ESD) yang paling dominan dipengaruhi oleh PjBL dalam desain RPP?
+
+📌 Nilai tambah Q1
+	•	Reviewer menyukai comparative insight
+
+Analisis yang tepat:
+	•	Perbandingan path coefficient (SEM-PLS)
+	•	Effect size (f²)
+
+RM4.
+
+Bagaimana kontribusi kemampuan integrasi TPACK, STEM, dan ESD terhadap kualitas desain RPP secara keseluruhan setelah penerapan PjBL?
+
+📌 RM ini menunjukkan kedalaman teoretis
+
+Analisis yang tepat:
+	•	SEM-PLS dengan konstruk orde kedua
+
+Model
+TPACK
+   ↘
+    Kemampuan Integratif RPP
+   ↗
+STEM     ESD
+
+RM5
+
+Apakah peningkatan integrasi TPACK, STEM, dan ESD memediasi pengaruh PjBL terhadap kualitas desain RPP?
+
+📌 Ini advanced analysis
+
+Analisis yang tepat:
+	•	SEM-PLS (mediation analysis)
+	•	Bootstrapping indirect effects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1️⃣ Framework Konseptual (Scopus Q1–oriented)
+
+A. Landasan Konseptual
+
+Artikel diposisikan pada irisan:
+	•	Project-Based Learning (PjBL) sebagai instructional intervention
+	•	Teacher Design Competence sebagai outcome
+	•	TPACK, STEM, dan ESD sebagai design integration dimensions
+
+B. Logika Framework
+
+PjBL:
+	•	Mendorong authentic problem solving
+	•	Menuntut perancangan pembelajaran berbasis proyek
+	•	Secara alamiah menstimulasi integrasi:
+	•	teknologi (TPACK),
+	•	lintas disiplin (STEM),
+	•	dan keberlanjutan (ESD)
+
+C. Framework Model (naratif)
+
+PjBL memengaruhi kemampuan guru/mahasiswa dalam mengintegrasikan TPACK, STEM, dan ESD pada desain RPP. Ketiga kemampuan tersebut secara kolektif membentuk kemampuan integratif desain RPP, yang tercermin dalam peningkatan kualitas RPP pasca intervensi.
+
+D. Struktur Model (teks visual)
+
+           TPACK
+             ↘
+PjBL  →   STEM   →  Kemampuan Integratif
+             ↗         Desain RPP
+            ESD
+
+📌 Catatan Q1 penting
+	•	PjBL = konstruk eksogen
+	•	TPACK, STEM, ESD = konstruk laten orde pertama
+	•	Kemampuan Integratif RPP = konstruk orde kedua (HOC)
+	•	Data SEM-PLS menggunakan skor posttest

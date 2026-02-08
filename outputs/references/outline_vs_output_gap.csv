@@ -1,0 +1,32 @@
+section,outline_requirement,current_status,evidence,next_action,priority
+RM1,"Descriptive pre-post per konstruk (Tabel 1)",Done,"outputs/rm1/rm1_descriptive_constructs.csv","Tidak perlu perubahan",Done
+RM1,"Descriptive per indikator (Tabel 2)",Done,"outputs/rm1/rm1_descriptive_indicators.csv","Tidak perlu perubahan",Done
+RM1,"Normality test (Tabel 3)",Done,"outputs/rm1/rm1_normality.csv","Tidak perlu perubahan",Done
+RM1,"Paired t-test/Wilcoxon + effect size (Tabel 4)",Done,"outputs/rm1/rm1_paired_tests.csv","Tidak perlu perubahan",Done
+RM1,"N-Gain summary + kategori (Tabel 5)",Done,"outputs/rm1/rm1_ngain_summary.csv","Tidak perlu perubahan",Done
+RM1,"Figur pre-post dan distribusi N-Gain",Done,"outputs/rm1/fig1_pre_post_comparison.png; outputs/rm1/fig2_ngain_distribution.png","Tidak perlu perubahan",Done
+RM1,"Narasi hasil RM1",Done,"drafts/results_rm1_id.md","Translate ke English untuk full paper",Medium
+RM2-RM5,"Software/algoritma SEM-PLS (variance-based)",Done,"scripts/analysis/rm2_rm5_sem_analysis.py menggunakan plspm Python 0.5.7","Opsional: naikkan bootstrap ke 5000",Low
+RM2,"Measurement model: loadings AVE CR alpha",Done,"outputs/rm2_rm5/sem_table6_loadings.csv; outputs/rm2_rm5/sem_table7_ave_cr.csv","Tidak perlu perubahan",Done
+RM2,"Discriminant validity: HTMT / Fornell-Larcker",Done,"outputs/rm2_rm5/sem_htmt_matrix.csv; outputs/rm2_rm5/sem_fornell_larcker.csv","Tidak perlu perubahan",Done
+RM2,"Direct effects + f2",Done,"outputs/rm2_rm5/sem_table8_paths.csv (includes f2)","Tidak perlu perubahan",Done
+RM2,"R-squared konstruk endogen",Done,"outputs/rm2_rm5/sem_table9_r2.csv","Tidak perlu perubahan",Done
+RM3,"Perbandingan path coefficient + ranking",Done,"outputs/rm2_rm5/sem_rm3_path_comparison.csv; outputs/rm2_rm5/sem_table10_comparison.csv","Tidak perlu perubahan",Done
+RM3,"Figur 3 path comparison",Done,"outputs/rm2_rm5/fig3_sem_rm3_paths.png","Tidak perlu perubahan",Done
+RM4,"Jalur ke RPP (HOC proxy)",Done,"outputs/rm2_rm5/sem_table11_hoc.csv; outputs/rm2_rm5/sem_rm4_hoc_paths.csv","Tidak perlu perubahan",Done
+RM4,"Figur 4 full model",Done,"outputs/rm2_rm5/fig4_sem_full_model_hoc_proxy.png","Tidak perlu perubahan",Done
+RM4,"Q2 predictive relevance",Done,"outputs/rm2_rm5/sem_q2_predictive_relevance.csv","Tidak perlu perubahan",Done
+RM5,"Mediation via bootstrapping + CI",Done,"outputs/rm2_rm5/sem_table12_mediation.csv; sem_rm5_mediation.csv (bootstrap 500)","Opsional: naikkan ke 5000",Low
+RM5,"VAF + tipe mediasi",Done,"outputs/rm2_rm5/sem_table12_mediation.csv (VAF & mediation type included)","Tidak perlu perubahan",Done
+RM5,"Sobel test cross-check",Done,"outputs/rm2_rm5/sem_rm5_mediation.csv (Sobel z & p included)","Tidak perlu perubahan",Done
+RM5,"Figur 5 mediation paths",Done,"outputs/rm2_rm5/fig5_sem_mediation_paths.png","Tidak perlu perubahan",Done
+RM2-RM5,"Narasi hasil RM2-RM5",Done,"drafts/results_rm2_rm5_id.md (v2.0 PLS-PM)","Translate ke English untuk full paper",Medium
+Paper,"Introduction section",Missing,"Belum ada draft","Tulis ~1500-2000 kata",Critical
+Paper,"Literature Review section",Missing,"Belum ada draft","Tulis ~2000-2500 kata",Critical
+Paper,"Methods section",Missing,"Belum ada draft","Tulis ~1500-2000 kata",Critical
+Paper,"Results section (English consolidated)",Missing,"Hanya ada draft ID terpisah","Konsolidasi + translate RM1+RM2-RM5",High
+Paper,"Discussion section",Missing,"Belum ada draft","Tulis ~2500-3000 kata",Critical
+Paper,"Conclusion section",Missing,"Belum ada draft","Tulis ~400-600 kata",High
+Paper,"Abstract",Missing,"Belum ada draft","Tulis setelah semua seksi selesai",High
+References,"DOI/link untuk referensi inti outline",Done,"outputs/references/outline_references_doi.csv (15 refs)","Tambah 25-45 referensi lagi",High
+References,"Total 40-60 referensi Scopus/WoS",Partial,"15 referensi inti tersedia","Cari referensi tambahan saat menulis",High

@@ -1,0 +1,5 @@
+Construct,Test,N,Mean_Pre,Mean_Post,Mean_Diff,Statistic_Label,Statistic,p_value,Significant,Cohens_d,Effect_Size_Interp,CI_95
+TPACK,Wilcoxon,95,2.306,3.319,1.0131,W,0.0,<0.000001,Yes,2.7048,Large,N/A
+STEM,Paired t-test,95,2.1718,3.2224,1.0505,t,25.8974,<0.000001,Yes,2.657,Large,"[0.9700, 1.1300]"
+ESD,Paired t-test,95,1.9286,2.7264,0.7978,t,22.7866,<0.000001,Yes,2.3379,Large,"[0.7300, 0.8700]"
+RPP Integratif,Paired t-test,95,2.1355,3.0893,0.9538,t,40.8803,<0.000001,Yes,4.1942,Large,"[0.9100, 1.0000]"

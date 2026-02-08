@@ -1,0 +1,7 @@
+Flag,Status,Note
+PjBL05_removed_zero_variance,Yes,Indikator PjBL05 dihapus karena variansi nol.
+Model_type,PLS-PM,Analisis menggunakan plspm Python 0.5.7 (variance-based SEM).
+RPP_single_indicator,Yes,RPP dimodelkan sebagai single-indicator construct.
+Q2_method,Cross-validated latent-score approximation,Q2 dihitung pendekatan prediksi skor laten (bukan blindfolding bawaan software GUI).
+Bootstrap_method,Unified manual bootstrap (5000 iterations),Bootstrap dilakukan 1 loop manual (bukan bootstrap bawaan plspm) untuk efisiensi.
+Mediation_crosscheck,Sobel + Bootstrap percentile CI,Mediasi diuji dengan dua metode: Sobel test dan bootstrap CI 95% percentile.

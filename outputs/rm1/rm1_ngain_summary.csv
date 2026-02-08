@@ -1,0 +1,5 @@
+Construct,N,NGain_Mean,NGain_SD,NGain_Min,NGain_Max,Category,n_High,pct_High,n_Medium,pct_Medium,n_Low,pct_Low
+TPACK,95,0.5962,0.16,0.1739,1.0,Medium,25,26.3,69,72.6,1,1.1
+STEM,95,0.5743,0.1787,0.1818,1.0,Medium,23,24.2,66,69.5,6,6.3
+ESD,95,0.376,0.1289,0.0,0.6055,Medium,0,0.0,68,71.6,27,28.4
+RPP Integratif,95,0.5126,0.1026,0.2793,0.7867,Medium,3,3.2,91,95.8,1,1.1
