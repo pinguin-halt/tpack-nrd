@@ -1,0 +1,25 @@
+## 6. Kesimpulan
+
+Penelitian ini menginvestigasi bagaimana Project-Based Learning mempengaruhi kompetensi perencanaan pembelajaran integratif calon guru IPA, yang dikonseptualisasikan sebagai integrasi simultan dimensi TPACK, STEM, dan ESD dalam desain rencana pembelajaran. Menggunakan desain pra-eksperimental satu kelompok pretest-posttest dengan 95 calon guru IPA dan kombinasi uji berpasangan, analisis N-Gain, dan PLS-SEM dengan 5.000 iterasi bootstrap, penelitian ini menjawab lima pertanyaan penelitian dan menguji tiga hipotesis. Temuan kunci diringkas di bawah ini.
+
+**RQ1:** Keempat konstruk—TPACK, STEM, ESD, dan kualitas rencana pembelajaran integratif—menunjukkan peningkatan signifikan secara statistik setelah intervensi PjBL, dengan effect sizes yang seragam besar (Cohen's $d > 2{,}3$) dan nilai N-Gain kategori Sedang. TPACK dan STEM adalah konstruk yang paling responsif, sementara ESD menunjukkan N-Gain terlemah, dengan tidak ada partisipan yang mencapai N-Gain Tinggi dan 28,4% tetap berada di kategori Rendah.
+
+**RQ2:** Membangun pada peningkatan pre-post ini, analisis PLS-SEM mengungkapkan mekanisme struktural yang mendasari perubahan-perubahan ini. PjBL secara signifikan memprediksi ketiga dimensi integrasi: TPACK ($\beta = 0{,}727$, $p < 0{,}001$), STEM ($\beta = 0{,}683$, $p < 0{,}001$), dan ESD ($\beta = 0{,}617$, $p < 0{,}001$), seluruhnya dengan effect sizes besar ($f^2 > 0{,}5$). H1 sepenuhnya didukung.
+
+**RQ3:** Di antara ketiga dimensi, TPACK adalah yang paling kuat dipengaruhi, diikuti oleh STEM dan ESD. Urutan (TPACK > STEM > ESD) didasarkan pada koefisien jalur dan effect sizes, menunjukkan bahwa fokus PjBL yang kaya teknologi dan penciptaan artefak paling natural mengaktivasi technological pedagogical content knowledge.
+
+**RQ4:** Beralih ke sisi outcome model, ketiga dimensi integrasi berkontribusi secara signifikan terhadap kualitas rencana pembelajaran integratif dengan effect sizes besar: STEM ($\beta = 0{,}483$, $f^2 = 5{,}785$), TPACK ($\beta = 0{,}420$, $f^2 = 2{,}987$), dan ESD ($\beta = 0{,}340$, $f^2 = 2{,}546$). H2 didukung, memvalidasi konseptualisasi konstruk tingkat tinggi dari perencanaan pembelajaran integratif.
+
+**RQ5:** Akhirnya, pola mediasi penuh diamati secara agregat: PjBL mempengaruhi kualitas rencana pembelajaran tidak secara langsung tetapi melalui peningkatan ketiga kompetensi integrasi. Ketiga jalur mediasi signifikan: STEM ($\beta$ tidak langsung $= 0{,}330$, VAF $= 37{,}4\%$), TPACK ($\beta$ tidak langsung $= 0{,}309$, VAF $= 35{,}0\%$), dan ESD ($\beta$ tidak langsung $= 0{,}213$, VAF $= 24{,}1\%$). Efek tidak langsung total substansial ($\beta = 0{,}852$, $p < 0{,}001$), sementara efek langsung tidak signifikan. H3 sepenuhnya didukung.
+
+### Kontribusi
+
+Kontribusi utama penelitian ini terletak pada penyediaan uji empiris pertama dari model struktural yang secara simultan memposisikan TPACK, STEM, dan ESD sebagai dimensi mediasi antara PjBL dan kualitas rencana pembelajaran integratif. Temuan bahwa ketiga jalur berfungsi sebagai saluran mediasi signifikan memajukan kerangka Teacher Design Capacity dengan menspesifikasikan jalur-jalur komposisional melalui mana intervensi pedagogis diterjemahkan menjadi kompetensi desain. Berbeda dengan penelitian sebelumnya yang menunjukkan bahwa beberapa dimensi (misalnya, ESD) mungkin tidak amenable terhadap pengembangan berbasis PjBL, penelitian ini mendemonstrasikan bahwa PjBL secara signifikan mempengaruhi ketiga dimensi dengan effect sizes besar, meskipun analisis N-Gain mengungkapkan bahwa ESD memerlukan scaffolding tambahan untuk memaksimalkan peningkatan absolut.
+
+### Arah Masa Depan
+
+Penelitian masa depan harus mengatasi keterbatasan penelitian ini melalui beberapa perbaikan metodologis. Pertama, desain kuasi-eksperimental dengan kelompok kontrol akan memungkinkan inferensi kausal yang lebih kuat. Kedua, replikasi multi-situs lintas konteks institusional dan budaya yang beragam akan meningkatkan generalisabilitas. Ketiga, durasi intervensi yang diperpanjang dengan scaffolding ESD terdedikasi—seperti pertanyaan pendorong berfokus keberlanjutan dan refleksi SDG terstruktur—mungkin menghasilkan peningkatan absolut yang lebih kuat dalam kompetensi ESD.
+
+Selain itu, studi metode campuran yang menggabungkan data kualitatif—seperti wawancara dan observasi kelas—akan menyediakan wawasan lebih kaya ke dalam mekanisme melalui mana PjBL membentuk pemikiran desain integratif. Studi longitudinal yang melacak retensi kompetensi integratif melampaui periode intervensi akan lebih memperkuat basis bukti untuk peran PjBL dalam persiapan calon guru IPA.
+
+Sebagai kesimpulan, penelitian ini menyediakan bukti robust bahwa Project-Based Learning adalah intervensi efektif untuk mengembangkan kompetensi perencanaan pembelajaran integratif calon guru IPA. Pola mediasi penuh—yang beroperasi melalui jalur TPACK, STEM, dan ESD—menawarkan baik wawasan teoretis tentang bagaimana intervensi pedagogis diterjemahkan menjadi kompetensi desain maupun panduan praktis untuk program pendidikan guru yang berupaya membudayakan keterampilan integrasi multi-dimensional pada calon guru IPA masa depan.

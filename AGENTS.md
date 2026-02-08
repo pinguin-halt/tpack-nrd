@@ -20,11 +20,20 @@ Sumber inti:
 
 Sumber kerja aktif (status terbaru):
 
-- Manuskrip utama EN: `paper/paper_full.md`
-- Manuskrip utama ID: `paper/paper_full_id.md`
+- Section files EN: `paper/en/00_front_matter.md` s.d. `paper/en/07_references.md`
+- Section files ID: `paper/id/00_front_matter.md` s.d. `paper/id/07_references.md`
+- Merged EN: `paper/paper_full_en.md` (11.773 kata, auto-generated — jangan edit langsung)
+- Merged ID: `paper/paper_full_id.md` (10.346 kata, auto-generated — jangan edit langsung)
+- Merger script: `paper/merge_paper.py` (jalankan `--all` setelah edit section files)
 - Draft hasil ID: `drafts/results_rm1_id.md`, `drafts/results_rm2_rm5_id.md`
-- Referensi: `paper/07_references.md`
+- Referensi: `paper/en/07_references.md` dan `paper/id/07_references.md` (117 sitasi)
 - Data: `dataset.xlsx` (raw, immutable) dan `dataset.csv` (working copy)
+
+**PENTING:** Selalu edit di `paper/en/` atau `paper/id/`, lalu regenerasi merged files:
+
+```bash
+conda run -n tpack-research python paper/merge_paper.py --all
+```
 
 ## 2) Profil Peran Agent
 
@@ -205,34 +214,64 @@ Jika muncul kemudian, perlakukan sebagai kebijakan lokal prioritas tinggi.
 
 ## 14) Status Proyek Terkini (Update)
 
-Status saat ini: **analisis RM1-RM5 selesai** dan **draft paper sudah terbentuk**.
+Status saat ini: **analisis RM1-RM5 selesai**, **draft paper bilingual (EN+ID) sudah terbentuk**, **audit data selesai**, **formatting LaTeX selesai**.
 
-Artefak utama yang sudah tersedia:
+### Fase yang Sudah Selesai
 
+1. **Analisis statistik RM1-RM5** — seluruh output tersimpan di `outputs/`.
+2. **Penulisan draft paper** — EN dan ID, seluruh section IMRAD.
+3. **Konversi LaTeX** — seluruh notasi matematika di 8 section files (EN+ID) sudah menggunakan `$...$`. Abstrak EN dan ID juga sudah dikonversi.
+4. **Koreksi path gambar** — `merge_paper.py` otomatis konversi `../../outputs/` → `../outputs/`.
+5. **Update ORCID** — keempat penulis sudah memiliki ORCID di front matter EN dan ID.
+6. **Audit konsistensi data RM1** — cell-by-cell cross-verification CSV↔paper, zero discrepancies.
+7. **Audit konsistensi data RM2-RM5** — 6 kelompok tabel, 13 dataset CSV, seluruh prose, zero discrepancies.
+8. **Perbaikan gap Q²** — Nilai Q² (predictive relevance) sudah ada di narasi EN dan ID.
+9. **Submission checklist** — `SUBMISSION_CHECKLIST.md` sudah dibuat.
+
+### Artefak Utama
+
+- Section files EN: `paper/en/00_front_matter.md` s.d. `paper/en/07_references.md`
+- Section files ID: `paper/id/00_front_matter.md` s.d. `paper/id/07_references.md`
+- Merged EN: `paper/paper_full_en.md` (11.773 kata)
+- Merged ID: `paper/paper_full_id.md` (10.346 kata)
 - Tabel/angka RM1: `outputs/rm1/*.csv`
 - Tabel/angka RM2-RM5: `outputs/rm2_rm5/*.csv`
-- Figur final:
+- Figur final (6 file):
+  - `paper/model.png` — model struktural hipotetis
   - `outputs/rm1/fig1_pre_post_comparison.png`
   - `outputs/rm1/fig2_ngain_distribution.png`
   - `outputs/rm2_rm5/fig3_sem_rm3_paths.png`
   - `outputs/rm2_rm5/fig4_sem_full_model_hoc_proxy.png`
   - `outputs/rm2_rm5/fig5_sem_mediation_paths.png`
-- Draft paper EN: `paper/paper_full.md`
-- Draft paper ID: `paper/paper_full_id.md`
-- Versi Word EN: `paper/word_pipeline/docx/paper_scopus.docx`
-- Versi Word ID (template jurnal): `paper/word_pipeline/docx/paper_full_id_scopus_template.docx`
+- Versi Word (mungkin stale, perlu regenerasi):
+  - `paper/word_pipeline/docx/paper_scopus.docx`
+  - `paper/word_pipeline/docx/paper_scopus_id.docx`
+  - `paper/word_pipeline/docx/paper_full_id_scopus_template.docx`
+
+### Konvensi Penting
+
+- **Jangan edit merged files** (`paper_full_*.md`) langsung — selalu edit di `paper/en/` atau `paper/id/`.
+- **Separator desimal Indonesia:** gunakan `{,}` di LaTeX, bukan `,`: `$0{,}596$` bukan `$0,596$`.
+- **Path gambar di source files:** `../../outputs/...`; merger auto-konversi ke `../outputs/...`.
+- **Tabel numbering:** EN menggunakan Table 1–10, ID menggunakan Tabel 1–9 (ID menghilangkan tabel deskriptif indikator).
+- **CSV naming caveat:** `sem_table9_r2.csv` berisi perbandingan RM3, BUKAN data R². Data R² ada di `sem_table10_hoc.csv` / `sem_r2.csv`.
 
 ## 15) Prioritas Kerja Baru (Submission-Readiness)
 
 Jika user meminta pekerjaan lanjutan, default prioritas agent adalah:
 
 1. Finalisasi isi naskah (coherence, konsistensi istilah, konsistensi angka narasi-tabel-figur).
-2. Finalisasi format target jurnal (template, heading, caption, reference style, metadata author).
-3. Quality control sebelum submit:
+2. **Citation cross-check** — verifikasi 117 referensi cocok dengan sitasi in-text (bidirectional).
+3. Finalisasi format target jurnal (template, heading, caption, reference style, metadata author).
+4. Quality control sebelum submit:
    - cek semua sitasi ada di daftar pustaka;
    - cek semua tabel/figur dirujuk di narasi;
    - cek angka penting konsisten antar Abstract-Results-Conclusion.
-4. Siapkan paket kirim: versi `.docx` final + checklist submit + daftar keterbatasan yang ditulis jujur.
+5. Siapkan paket kirim:
+   - versi `.docx` final (regenerasi dari merged Markdown);
+   - cover letter yang menghighlight novelty;
+   - checklist submit (`SUBMISSION_CHECKLIST.md` sudah ada);
+   - daftar keterbatasan yang ditulis jujur.
 
 ## 16) Guardrails Tambahan Pasca-Analisis
 

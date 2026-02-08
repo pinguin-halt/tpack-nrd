@@ -1,5 +1,5 @@
 Flag,Status,Note
-PjBL05_removed_zero_variance,Yes,Indikator PjBL05 dihapus karena variansi nol.
+PjBL_indicators_used,"PjBL01,PjBL02,PjBL03,PjBL04,PjBL05",Semua indikator PjBL digunakan dalam model.
 Model_type,PLS-PM,Analisis menggunakan plspm Python 0.5.7 (variance-based SEM).
 RPP_single_indicator,Yes,RPP dimodelkan sebagai single-indicator construct.
 Q2_method,Cross-validated latent-score approximation,Q2 dihitung pendekatan prediksi skor laten (bukan blindfolding bawaan software GUI).

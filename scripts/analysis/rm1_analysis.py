@@ -84,6 +84,18 @@ df = pd.read_csv(DATA_PATH)
 print(f"Data loaded: {df.shape[0]} responden, {df.shape[1]} kolom")
 
 
+def validate_required_columns(dataframe: pd.DataFrame) -> None:
+    required = {"ID"}
+    required.update([c for pair in CONSTRUCTS.values() for c in pair])
+    required.update([c for pair in INDICATORS.values() for c in pair])
+    missing = sorted(required - set(dataframe.columns))
+    if missing:
+        raise ValueError(f"Kolom wajib tidak ditemukan di dataset.csv: {missing}")
+
+
+validate_required_columns(df)
+
+
 # ================================================================================
 # TABEL 1 — Descriptive Statistics per Construct (Pre vs Post)
 # ================================================================================
@@ -92,8 +104,9 @@ print(f"Data loaded: {df.shape[0]} responden, {df.shape[1]} kolom")
 
 rows_t1 = []
 for name, (pre_col, post_col) in CONSTRUCTS.items():
-    pre = df[pre_col]
-    post = df[post_col]
+    valid = df[[pre_col, post_col]].dropna()
+    pre = valid[pre_col]
+    post = valid[post_col]
     rows_t1.append(
         {
             "Construct": name,
@@ -126,8 +139,9 @@ print(tbl1.to_string(index=False))
 
 rows_t2 = []
 for name, (pre_col, post_col) in INDICATORS.items():
-    pre = df[pre_col]
-    post = df[post_col]
+    valid = df[[pre_col, post_col]].dropna()
+    pre = valid[pre_col]
+    post = valid[post_col]
     rows_t2.append(
         {
             "Indicator": name,
@@ -159,9 +173,10 @@ rows_t3 = []
 diff_is_normal = {}
 
 for name, (pre_col, post_col) in CONSTRUCTS.items():
-    diff = df[post_col] - df[pre_col]
-    sw_pre = stats.shapiro(df[pre_col])
-    sw_post = stats.shapiro(df[post_col])
+    valid = df[[pre_col, post_col]].dropna()
+    diff = valid[post_col] - valid[pre_col]
+    sw_pre = stats.shapiro(valid[pre_col])
+    sw_post = stats.shapiro(valid[post_col])
     sw_diff = stats.shapiro(diff)
 
     normal = sw_diff.pvalue > ALPHA
@@ -206,6 +221,8 @@ for name, normal in diff_is_normal.items():
 
 def interpret_cohens_d(d: float) -> str:
     """Klasifikasi effect size menurut Cohen (1988)."""
+    if pd.isna(d):
+        return "NA"
     d = abs(d)
     if d < 0.20:
         return "Negligible"
@@ -216,15 +233,24 @@ def interpret_cohens_d(d: float) -> str:
     return "Large"
 
 
+def cohens_d_paired(diff: pd.Series) -> float:
+    sd = diff.std(ddof=1)
+    if pd.isna(sd) or sd <= 1e-12:
+        return np.nan
+    return float(diff.mean() / sd)
+
+
 rows_t4 = []
 for name, (pre_col, post_col) in CONSTRUCTS.items():
-    pre = df[pre_col]
-    post = df[post_col]
+    valid = df[[pre_col, post_col]].dropna()
+    pre = valid[pre_col]
+    post = valid[post_col]
     diff = post - pre
     n = len(pre)
+    rbc = np.nan
 
     # Cohen's d selalu dihitung untuk komparabilitas antar konstruk
-    cohens_d = diff.mean() / diff.std()
+    cohens_d = cohens_d_paired(diff)
 
     if diff_is_normal[name]:
         # --- Paired t-test (pingouin) ---
@@ -243,6 +269,11 @@ for name, (pre_col, post_col) in CONSTRUCTS.items():
         p_val = res["p-val"].values[0]
         ci_str = "N/A"
         test_name = "Wilcoxon"
+        rbc = (
+            float(res["RBC"].values[0])
+            if "RBC" in res.columns and pd.notna(res["RBC"].values[0])
+            else np.nan
+        )
 
     p_str = f"{p_val:.6f}" if p_val >= 1e-6 else "<0.000001"
 
@@ -260,6 +291,7 @@ for name, (pre_col, post_col) in CONSTRUCTS.items():
             "Significant": "Yes" if p_val < ALPHA else "No",
             "Cohens_d": round(cohens_d, 4),
             "Effect_Size_Interp": interpret_cohens_d(cohens_d),
+            "Wilcoxon_RBC": round(rbc, 4) if test_name == "Wilcoxon" else np.nan,
             "CI_95": ci_str,
         }
     )
@@ -308,13 +340,23 @@ for name, (pre_col, post_col) in CONSTRUCTS.items():
     post = df[post_col]
     denom = MAX_SCORE - pre
     ngain = np.where(denom > 0, (post - pre) / denom, np.nan)
+    ngain = np.where(pd.notna(pre) & pd.notna(post), ngain, np.nan)
     ngain_df[f"NGain_{name}"] = ngain
 
 ngain_df.to_csv(OUTPUT_DIR / "rm1_ngain_individual.csv", index=False)
 
+for name in CONSTRUCTS:
+    vals = ngain_df[f"NGain_{name}"].dropna()
+    outside = int(((vals < 0) | (vals > 1)).sum())
+    if outside > 0:
+        print(
+            f"Peringatan: {outside} nilai N-Gain di luar rentang [0, 1] pada konstruk {name}."
+        )
+
 # Rangkuman per konstruk
 rows_t5 = []
 for name in CONSTRUCTS:
+    pre_col, _ = CONSTRUCTS[name]
     col = f"NGain_{name}"
     vals = ngain_df[col].dropna()
     cats = vals.apply(hake_category)
@@ -322,11 +364,13 @@ for name in CONSTRUCTS:
     n_med = (cats == "Medium").sum()
     n_low = (cats == "Low").sum()
     n_total = len(vals)
+    n_premax = int((df[pre_col] >= MAX_SCORE).sum())
 
     rows_t5.append(
         {
             "Construct": name,
             "N": n_total,
+            "N_Excluded_PreMax": n_premax,
             "NGain_Mean": round(vals.mean(), 4),
             "NGain_SD": round(vals.std(), 4),
             "NGain_Min": round(vals.min(), 4),

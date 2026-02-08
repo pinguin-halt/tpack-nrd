@@ -44,15 +44,9 @@ In the present study, integrative lesson planning competence is operationalized 
 
 Drawing on the foregoing theoretical foundations, the present study proposes a structural model in which PjBL serves as the exogenous construct influencing three first-order endogenous constructs—TPACK, STEM, and ESD integration competences—which in turn contribute to the quality of integrative lesson plans (see Figure 1). The model posits both direct effects (PjBL → TPACK, PjBL → STEM, PjBL → ESD) and indirect effects (PjBL → TPACK/STEM/ESD → Integrative Lesson Plan Quality), with the three integration dimensions hypothesized to mediate the relationship between PjBL and lesson plan quality.
 
-```
-                TPACK
-               /      \
-PjBL ------> STEM ------> Integrative Lesson Plan Quality
-               \      /
-                ESD
-```
+![Hypothesized structural model](model.png)
 
-*Figure 1.* Hypothesized structural model.
+*Figure 1.* Hypothesized structural model. PjBL influences three integration dimensions (TPACK, STEM, ESD) which in turn contribute to the quality of integrative lesson plans. The dashed line indicates the direct path from PjBL to RPP, hypothesized to be non-significant (full mediation).
 
 The theoretical justification for each pathway is as follows:
 

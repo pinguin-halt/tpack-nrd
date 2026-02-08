@@ -53,8 +53,7 @@ RANDOM_SEED = 42
 # DEFINISI KONSTRUK & INDIKATOR
 # ========================
 BLOCKS: dict[str, list[str]] = {
-    # PjBL05 dihapus karena variansi nol (konstan)
-    "PjBL": ["PjBL01", "PjBL02", "PjBL03", "PjBL04"],
+    "PjBL": ["PjBL01", "PjBL02", "PjBL03", "PjBL04", "PjBL05"],
     "TPACK": [
         "TK_post",
         "PK_post",
@@ -783,9 +782,9 @@ if __name__ == "__main__":
     limitations = pd.DataFrame(
         [
             {
-                "Flag": "PjBL05_removed_zero_variance",
-                "Status": "Yes",
-                "Note": "Indikator PjBL05 dihapus karena variansi nol.",
+                "Flag": "PjBL_indicators_used",
+                "Status": "PjBL01,PjBL02,PjBL03,PjBL04,PjBL05",
+                "Note": "Semua indikator PjBL digunakan dalam model.",
             },
             {
                 "Flag": "Model_type",

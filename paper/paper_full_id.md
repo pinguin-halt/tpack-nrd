@@ -1,228 +1,566 @@
-# Bagaimana Project-Based Learning Meningkatkan Kompetensi Desain RPP Integratif pada Calon Guru IPA: Pendekatan Structural Equation Modeling
+<!-- Dibuat otomatis oleh merge_paper.py (lang=id) | Total: ~10341 kata | Seksi: 8/8 -->
+
+# Bagaimana Project-Based Learning Meningkatkan Kompetensi Desain RPP Integratif Calon Guru IPA: Pendekatan Structural Equation Modeling
 
 **Penulis:**
 
-Novi Ratna Dewi^1*^ [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-0210-6496), Rizki Nor Amelia^1^ [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9128-9131), Septiko Aji^1^, Ismail Okta Kurniawan^1^
+Novi Ratna Dewi^1*^ [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-0210-6496), Rizki Nor Amelia^1^ [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9128-9131), Septiko Aji^1^ [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0006-5111-8721), Ismail Okta Kurniawan^1^ [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-4667-4258)
 
 **Afiliasi:**
 
-^1^ Faculty of Mathematics and Natural Sciences, Universitas Negeri Semarang, Central Java, Indonesia
+^1^ Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Negeri Semarang, Jawa Tengah, Indonesia
 
 **Corresponding author:** *noviratnadewi@mail.unnes.ac.id
 
-**Kata kunci:** Project-Based Learning, TPACK, STEM, Education for Sustainable Development, RPP Integratif, calon guru IPA, PLS-SEM
+**Kata kunci:** Project-Based Learning, TPACK, Pendidikan STEM, Education for Sustainable Development, Desain RPP Integratif, Calon Guru IPA, PLS-SEM, Kompetensi Desain Guru
+
+---
 
 ## Abstrak
 
-Kemampuan calon guru IPA dalam merancang RPP yang secara simultan mengintegrasikan TPACK, STEM, dan Education for Sustainable Development (ESD) merupakan kebutuhan mendesak, tetapi belum banyak diuji dalam satu model empiris terpadu. Penelitian ini bertujuan menganalisis pengaruh Project-Based Learning (PjBL) terhadap peningkatan kompetensi integrasi TPACK, STEM, dan ESD, serta memodelkan mekanisme jalur pengaruhnya terhadap kualitas RPP integratif. Penelitian menggunakan desain pra-eksperimen one-group pretest-posttest dengan 95 mahasiswa calon guru IPA di Indonesia. Data dikumpulkan melalui rubrik penilaian RPP (14 indikator) dan instrumen observasi implementasi PjBL, lalu dianalisis menggunakan uji berpasangan, N-Gain, dan PLS-SEM berbasis bootstrap (5000 iterasi). Hasil menunjukkan seluruh konstruk meningkat signifikan dari pretest ke posttest (p < 0,001) dengan ukuran efek besar (Cohen's d > 2,3). Namun, ESD menjadi dimensi dengan gain paling lemah (mean N-Gain = 0,376) dan tanpa kategori high gain. Dalam model struktural, PjBL berpengaruh signifikan terhadap TPACK (beta = 0,718; p < 0,001), STEM (beta = 0,671; p < 0,001), dan ESD (beta = 0,612; p < 0,001) dengan ukuran efek besar pada seluruh jalur. Pengaruh langsung PjBL terhadap RPP tidak signifikan (beta = 0,040; p = 0,305). Ketiga dimensi berkontribusi signifikan terhadap kualitas RPP integratif (seluruh p < 0,001), dengan jalur STEM paling kuat (beta = 0,483). Analisis mediasi menunjukkan pola full mediation secara agregat: pengaruh PjBL terhadap RPP sepenuhnya berjalan melalui peningkatan dimensi integrasi, dengan jalur terbesar melalui STEM (indirect = 0,324), TPACK (0,301), dan ESD (0,208). Total indirect effect sangat signifikan (beta = 0,833; p < 0,001). Temuan ini menegaskan bahwa PjBL efektif sebagai pengungkit kompetensi desain integratif melalui mekanisme mediasi kompetensi, meskipun capaian ESD pada level pre-post tetap paling rendah dan memerlukan scaffolding tambahan.
+Mempersiapkan calon guru IPA untuk merancang RPP yang secara simultan mengintegrasikan Technological Pedagogical Content Knowledge (TPACK), Science-Technology-Engineering-Mathematics (STEM), dan Education for Sustainable Development (ESD) merupakan tantangan kritis namun kurang diteliti dalam pendidikan guru. Penelitian ini menguji pengaruh Project-Based Learning (PjBL) terhadap pengembangan ketiga dimensi integrasi tersebut dan kualitas RPP integratif secara keseluruhan, serta memodelkan hubungan struktural di antaranya. Desain pra-eksperimen one-group pretest-posttest diterapkan pada 95 calon guru IPA di sebuah universitas negeri di Indonesia. Data dikumpulkan melalui penilaian berbasis rubrik terhadap RPP yang mencakup 14 indikator dan kuesioner kualitas implementasi PjBL, kemudian dianalisis menggunakan uji berpasangan, analisis normalized gain (N-Gain), dan Partial Least Squares Structural Equation Modeling (PLS-SEM) dengan 5.000 iterasi bootstrap. Seluruh konstruk meningkat secara signifikan setelah intervensi PjBL, dengan ukuran efek besar (Cohen's $d > 2{,}3$) dan nilai N-Gain kategori Medium; namun, ESD menunjukkan N-Gain terlemah, tanpa partisipan yang mencapai N-Gain High. Hasil PLS-SEM mengungkapkan bahwa PjBL secara signifikan memprediksi ketiga dimensi integrasi dengan ukuran efek besar: TPACK ($\beta = 0{,}727$, $p < 0{,}001$, $f^2 = 1{,}123$), STEM ($\beta = 0{,}683$, $p < 0{,}001$, $f^2 = 0{,}872$), dan ESD ($\beta = 0{,}617$, $p < 0{,}001$, $f^2 = 0{,}614$). Ketiga dimensi berkontribusi signifikan terhadap kualitas RPP integratif dengan ukuran efek besar. Pola full mediation teramati: PjBL mempengaruhi kualitas RPP melalui peningkatan ketiga kompetensi integrasi, dengan efek tidak langsung signifikan melalui jalur STEM ($\beta = 0{,}330$), TPACK ($\beta = 0{,}309$), dan ESD ($\beta = 0{,}213$). Total indirect effect substansial ($\beta = 0{,}852$, $p < 0{,}001$), sementara direct effect tidak signifikan. Temuan ini memberikan uji empiris pertama dari model struktural yang menghubungkan PjBL dengan desain RPP integratif melalui jalur TPACK, STEM, dan ESD, menawarkan panduan praktis bagi institusi pendidikan guru yang berupaya mengembangkan kompetensi desain komprehensif pada calon guru IPA.
+
+---
+
+## Pernyataan Etika
+
+Penelitian ini dilaksanakan sesuai dengan pedoman etika Deklarasi Helsinki. Seluruh partisipan telah diinformasikan mengenai tujuan dan prosedur penelitian serta memberikan persetujuan tertulis sebelum berpartisipasi. Partisipasi bersifat sukarela, dan partisipan dapat mengundurkan diri kapan saja tanpa konsekuensi. Tidak ada informasi identitas pribadi yang dikumpulkan di luar keperluan penelitian.
+
+## Pernyataan Konflik Kepentingan
+
+Para penulis menyatakan bahwa penelitian ini dilaksanakan tanpa adanya hubungan komersial atau finansial yang dapat ditafsirkan sebagai potensi konflik kepentingan.
+
+## Pernyataan Pendanaan
+
+Penelitian ini tidak menerima pendanaan eksternal.
+
+## Pernyataan Ketersediaan Data
+
+Dataset yang dihasilkan dan dianalisis dalam penelitian ini tersedia dari corresponding author berdasarkan permintaan yang wajar.
+
+## Kontribusi Penulis
+
+**Novi Ratna Dewi:** Konseptualisasi, Metodologi, Validasi, Analisis formal, Investigasi, Penulisan – draft awal, Penulisan – revisi & editing, Supervisi, Administrasi proyek. **Rizki Nor Amelia:** Investigasi, Kurasi data, Penulisan – revisi & editing. **Septiko Aji:** Kurasi data, Visualisasi. **Ismail Okta Kurniawan:** Kurasi data, Perangkat lunak.
+
+---
 
 ## 1. Pendahuluan
 
-Tuntutan pendidikan abad ke-21 menempatkan guru IPA pada peran yang semakin kompleks: bukan hanya mengajar konten sains, tetapi juga merancang pembelajaran yang memadukan teknologi, pendekatan lintas disiplin, dan perspektif keberlanjutan. Dalam konteks ini, kemampuan desain RPP integratif menjadi indikator kompetensi profesional yang penting bagi calon guru IPA. Tantangan utama di lapangan adalah ketiga domain tersebut sering dipelajari secara terpisah, sehingga calon guru kesulitan mensintesiskannya dalam satu desain pembelajaran yang operasional.
+Lanskap pendidikan IPA abad ke-21 menuntut guru memiliki kompetensi multifaset yang melampaui penguasaan konten disiplin ilmu semata. Guru IPA kini diharapkan merancang pembelajaran yang secara bermakna mengintegrasikan teknologi digital, mendorong penalaran interdisipliner, dan mengatasi tantangan keberlanjutan yang mendesak (UNESCO, 2017; Kelley & Knowles, 2016). Ekspektasi ini sangat akut bagi calon guru IPA, yang persiapan profesionalnya harus membekali mereka tidak hanya dengan pengetahuan teoretis tentang kerangka pedagogis individual, tetapi juga dengan kapasitas praktis untuk menenun berbagai kerangka menjadi RPP yang koheren. Namun, program pendidikan guru yang ada sering memperlakukan dimensi-dimensi ini—Technological Pedagogical Content Knowledge (TPACK), integrasi Science-Technology-Engineering-Mathematics (STEM), dan Education for Sustainable Development (ESD)—sebagai silo kurikuler terpisah, membiarkan calon guru menavigasi kompleksitas desain RPP integratif sebagian besar sendirian.
 
-Kerangka TPACK (Mishra & Koehler, 2006) menjelaskan integrasi pengetahuan teknologi, pedagogik, dan konten sebagai basis desain pembelajaran modern. Di sisi lain, pendekatan STEM menuntut keterhubungan science-technology-engineering-mathematics secara kontekstual (Kelley & Knowles, 2016), sementara ESD menegaskan dimensi nilai, tanggung jawab, dan keberlanjutan dalam keputusan pedagogis (UNESCO, 2017; UNECE, 2012). Integrasi ketiganya dalam dokumen RPP merupakan capaian tingkat tinggi yang belum banyak diuji secara simultan pada level calon guru.
+Kemampuan merancang RPP integratif—RPP yang secara simultan menyematkan pedagogi berbasis teknologi, koneksi STEM interdisipliner, dan perspektif keberlanjutan—merepresentasikan kompetensi profesional tingkat tinggi yang oleh Brown (2009) disebut *teacher design capacity*. Kapasitas ini bukan sekadar jumlah keterampilan terisolasi, melainkan kompetensi yang muncul (emergent) yang mengharuskan guru mengorkestrasikan berbagai bentuk pengetahuan secara serempak (McKenney et al., 2015). Mishra dan Koehler (2006) mengartikulasikan satu komponen kritis dari orkestrasi ini melalui kerangka TPACK, yang menggambarkan domain pengetahuan yang bersinggungan yang memungkinkan guru memanfaatkan teknologi untuk pedagogi spesifik konten. Literatur berikutnya memperluas logika integratif ini ke pendidikan STEM, di mana desain pelajaran yang efektif menuntut pencampuran yang disengaja dari inkuiri ilmiah, aplikasi teknologi, desain rekayasa, dan penalaran matematis (Kelley & Knowles, 2016). Lebih baru lagi, imperatif global untuk pendidikan keberlanjutan telah memperkenalkan dimensi integrasi ketiga: kompetensi ESD mengharuskan guru menyematkan isu keberlanjutan, pendekatan berbasis inkuiri terhadap tantangan lingkungan, dan pemikiran evaluatif tentang dilema sosio-ilmiah ke dalam pengajaran IPA mereka (UNESCO, 2017; Purwianingsih et al., 2022).
 
-Project-Based Learning (PjBL) secara teoretik relevan untuk menjembatani kebutuhan ini karena karakteristiknya berbasis masalah autentik, inquiry, kolaborasi, produksi artefak, dan refleksi (Krajcik & Shin, 2014; Bell, 2010). Dalam pendidikan guru, artefak tersebut dapat diwujudkan dalam bentuk RPP. Studi terdahulu menunjukkan PjBL efektif meningkatkan sebagian dimensi kompetensi desain, terutama TPACK dan pedagogi berbasis proyek (Dewi et al., 2022; Novallyan & Nehru, 2025). Namun, bukti empiris yang memodelkan bagaimana PjBL memengaruhi RPP integratif melalui jalur TPACK, STEM, dan ESD secara bersamaan masih terbatas.
+Meskipun pentingnya setiap dimensi diakui, literatur empiris mengungkapkan lanskap yang terfragmentasi. Studi yang menguji pengembangan TPACK di kalangan calon guru IPA berlimpah (misalnya, Offermann et al., 2025; Salleh et al., 2025), begitu pula investigasi kompetensi integrasi STEM (Tucker et al., 2024; Mansour et al., 2024) dan, dalam tingkat lebih rendah, kapabilitas pedagogis ESD (Purwianingsih et al., 2022; Shumba & Kampamba, 2013). Namun, aliran penelitian ini sebagian besar berkembang secara terpisah satu sama lain. Sedikit studi yang menguji bagaimana calon guru mengembangkan kemampuan mengintegrasikan ketiga dimensi secara simultan, dan belum ada studi yang memodelkan hubungan struktural di antara TPACK, STEM, dan ESD sebagai jalur mediasi yang melaluinya intervensi instruksional mempengaruhi kualitas RPP integratif.
 
-Kesenjangan ini penting secara teoretik dan praktis. Secara teoretik, pengujian model jalur dapat menjelaskan apakah PjBL bekerja langsung terhadap kualitas RPP atau melalui mekanisme mediasi kompetensi tertentu. Secara praktis, hasilnya membantu LPTK menentukan fokus intervensi, terutama jika ada dimensi yang secara konsisten lebih lemah.
+Project-Based Learning (PjBL) menawarkan intervensi yang secara teoretis menarik untuk mendorong kompetensi desain RPP integratif. PjBL, didefinisikan sebagai proses inkuiri yang diperpanjang yang terstruktur di sekitar pertanyaan pendorong autentik dan berpuncak pada artefak yang dibagikan secara publik (Krajcik & Shin, 2014), secara alami mengundang aktivasi simultan dari berbagai domain pengetahuan. Ketika calon guru IPA ditugaskan merancang RPP melalui proses PjBL, mereka harus berinteraksi dengan teknologi untuk mendukung inkuiri (mengaktifkan TPACK), memanfaatkan koneksi interdisipliner untuk mengatasi masalah autentik (mengaktifkan integrasi STEM), dan mempertimbangkan dimensi keberlanjutan dari isu ilmiah (mengaktifkan kompetensi ESD). Bukti empiris mendukung efektivitas PjBL dalam mengembangkan dimensi individual: Dewi et al. (2022) menunjukkan bahwa model scaffolding PjBL meningkatkan TPACK calon guru, sementara Novallyan dan Nehru (2025) menemukan PjBL efektif dalam mata kuliah profesi guru. Namun, mekanisme yang melaluinya PjBL mempengaruhi kualitas RPP integratif—apakah secara langsung atau melalui peningkatan kompetensi TPACK, STEM, dan ESD yang dimediasi—tetap belum diuji secara empiris.
 
-Berdasarkan uraian tersebut, penelitian ini menjawab lima pertanyaan riset:
+Kesenjangan ini berimplikasi untuk teori dan praktik. Secara teoretis, memahami apakah PjBL beroperasi melalui mediasi dimensional (yaitu, PjBL → TPACK/STEM/ESD → kualitas RPP) daripada melalui efek langsung pada kualitas RPP akan memajukan pemahaman kita tentang bagaimana intervensi pedagogis diterjemahkan menjadi kompetensi desain. Bukti semacam itu akan memperbaiki kerangka Teacher Design Capacity (Brown, 2009) dengan menspesifikasi jalur komposisional yang melaluinya kompetensi desain dibangun. Secara praktis, mengidentifikasi dimensi integrasi mana yang paling responsif terhadap PjBL akan memungkinkan pendidik guru mengkalibrasi penekanan instruksional dan strategi scaffolding mereka—misalnya, memberikan dukungan tambahan untuk dimensi yang tidak cukup dikembangkan oleh PjBL saja.
 
-1. Bagaimana perubahan kompetensi integrasi TPACK, STEM, dan ESD dalam RPP sebelum dan sesudah penerapan PjBL?
-2. Apakah PjBL berpengaruh signifikan terhadap dimensi TPACK, STEM, dan ESD?
-3. Dimensi mana yang paling dominan dipengaruhi PjBL?
-4. Bagaimana kontribusi TPACK, STEM, dan ESD terhadap kualitas RPP integratif?
-5. Apakah TPACK, STEM, dan ESD memediasi pengaruh PjBL terhadap kualitas RPP integratif?
+Penelitian ini mengatasi kesenjangan tersebut dengan mengusulkan dan menguji model struktural di mana PjBL berfungsi sebagai prediktor eksogen dari tiga dimensi integrasi (TPACK, STEM, dan ESD), yang pada gilirannya berkontribusi terhadap kualitas RPP integratif. Model dievaluasi menggunakan Partial Least Squares Structural Equation Modeling (PLS-SEM), pendekatan berbasis varians yang cocok untuk sifat eksploratori-konfirmatori dari investigasi ini, ukuran sampel yang moderat (N = 95), dan karakteristik formatif dari beberapa konstruk (Hair et al., 2022). Lima pertanyaan penelitian memandu investigasi:
 
-Hipotesis penelitian:
+> **RM1.** Bagaimana kompetensi integrasi TPACK, STEM, dan ESD calon guru IPA dalam desain RPP berubah dari pre- ke post-intervensi PjBL?
 
-- H1: PjBL berpengaruh positif terhadap TPACK, STEM, dan ESD.
-- H2: TPACK, STEM, dan ESD berkontribusi signifikan terhadap kualitas RPP integratif.
-- H3: TPACK, STEM, dan ESD memediasi pengaruh PjBL terhadap kualitas RPP integratif.
+> **RM2.** Apakah implementasi PjBL secara signifikan mempengaruhi kualitas desain RPP di seluruh dimensi integrasi TPACK, STEM, dan ESD?
 
-## 2. Tinjauan Pustaka dan Kerangka Konseptual
+> **RM3.** Dimensi integrasi mana (TPACK, STEM, atau ESD) yang paling kuat dipengaruhi oleh PjBL?
 
-PjBL dalam pendidikan guru menekankan proses desain berbasis proyek yang menghasilkan artefak nyata dan dapat ditinjau kualitasnya. Kerangka ini sesuai dengan konsep teacher design capacity (Brown, 2009; McKenney et al., 2015), yaitu kemampuan guru dalam merancang perangkat ajar berkualitas melalui integrasi berbagai sumber pengetahuan. Dalam penelitian ini, kualitas RPP integratif diposisikan sebagai representasi kapasitas desain tersebut.
+> **RM4.** Bagaimana kompetensi integrasi TPACK, STEM, dan ESD berkontribusi terhadap kualitas RPP integratif secara keseluruhan setelah implementasi PjBL?
 
-TPACK menjadi fondasi integrasi teknologi dalam pembelajaran. Literatur mutakhir menunjukkan TPACK bukan sekadar keyakinan diri, tetapi harus dinilai melalui performa desain atau praktik pembelajaran. Oleh karena itu, studi ini menggunakan penilaian berbasis rubrik pada dokumen RPP, bukan kuesioner persepsi.
+> **RM5.** Apakah peningkatan TPACK, STEM, dan ESD memediasi pengaruh PjBL terhadap kualitas RPP integratif?
 
-STEM menuntut integrasi disiplin secara autentik dalam aktivitas belajar. Pada level RPP, integrasi STEM tercermin pada kejelasan relasi antarkomponen science, technology, engineering, dan mathematics dalam skenario pembelajaran. PjBL diperkirakan menguatkan dimensi ini karena orientasinya pada problem solving kontekstual.
+Hipotesis berikut diajukan berdasarkan kerangka teoretis:
 
-ESD menambahkan lapisan tujuan pendidikan keberlanjutan yang meliputi perspektif lingkungan, sosial, dan ekonomi. Integrasi ESD dalam RPP IPA umumnya menantang karena membutuhkan literasi isu keberlanjutan sekaligus kemampuan menerjemahkannya ke strategi pedagogik. Karena itu, dalam banyak konteks, ESD berkembang lebih lambat dibanding TPACK dan STEM.
+- **H1:** PjBL secara positif dan signifikan mempengaruhi kompetensi integrasi TPACK, STEM, dan ESD.
+- **H2:** Kompetensi integrasi TPACK, STEM, dan ESD secara signifikan berkontribusi terhadap kualitas RPP integratif.
+- **H3:** TPACK, STEM, dan ESD memediasi hubungan antara PjBL dan kualitas RPP integratif.
 
-Berdasarkan sintesis teori, model penelitian dirumuskan sebagai berikut:
+Penelitian ini berkontribusi pada literatur dalam tiga cara. Pertama, menawarkan uji empiris pertama dari model integratif yang secara simultan memposisikan TPACK, STEM, dan ESD sebagai dimensi mediasi antara intervensi pedagogis dan kualitas RPP. Kedua, mengoperasionalisasikan kualitas RPP integratif sebagai konstruk tingkat tinggi yang dinilai melalui evaluasi berbasis rubrik daripada self-report, meningkatkan validitas ekologis pengukuran. Ketiga, dengan menggunakan PLS-SEM untuk menguraikan efek langsung, tidak langsung, dan total, penelitian ini memberikan wawasan granular tentang mekanisme yang melaluinya PjBL membentuk kompetensi desain calon guru IPA—wawasan yang memiliki implikasi langsung untuk desain kurikulum di institusi pendidikan guru.
 
-![Model penelitian](./model.png)
+---
 
-Model ini menguji pengaruh langsung PjBL ke tiga mediator dan outcome, serta pengaruh mediator terhadap outcome untuk menilai pola mediasi.
+## 2. Tinjauan Pustaka
+
+### 2.1 Project-Based Learning dalam Pendidikan Guru
+
+Project-Based Learning (PjBL) adalah pendekatan instruksional yang diorganisasikan di sekitar pertanyaan autentik dan kompleks yang mendorong investigasi berkelanjutan, inkuiri kolaboratif, dan penciptaan artefak nyata (Krajcik & Shin, 2014). Dalam konteks pendidikan guru, PjBL memiliki fungsi ganda: secara bersamaan berfungsi sebagai strategi pedagogis yang dialami oleh calon guru sebagai peserta didik dan sebagai metodologi desain yang harus mereka pelajari untuk diterapkan sebagai praktisi di masa depan. Posisi ganda ini menjadikan PjBL sangat potensial untuk mengembangkan kompetensi desain guru, karena proses pembuatan artefak instruksional—seperti rencana pelaksanaan pembelajaran—dalam kondisi PjBL membutuhkan mobilisasi aktif dan integrasi berbagai domain pengetahuan.
+
+Elemen-elemen esensial PjBL meliputi pertanyaan pendorong yang berlabuh pada masalah dunia nyata, inkuiri berkelanjutan melalui investigasi dan penelitian, kolaborasi antar peserta didik, penciptaan artefak yang dibagikan secara publik, dan refleksi terstruktur (Bell, 2010; Krajcik & Shin, 2014). Ketika diterapkan pada persiapan guru, elemen-elemen ini diterjemahkan ke dalam pedagogi berbasis desain di mana calon guru merumuskan tujuan instruksional seputar masalah ilmiah autentik, menginvestigasi konten dan strategi pedagogis, merancang rencana pembelajaran secara kolaboratif, terlibat dalam peer review dan revisi, serta merefleksikan koherensi dan kualitas desain mereka.
+
+Bukti empiris mendukung efektivitas PjBL dalam mengembangkan berbagai dimensi kompetensi guru. Dewi et al. (2022) menunjukkan bahwa model scaffolding PjBL secara signifikan meningkatkan TPACK dan kemampuan desain pembelajaran calon guru IPA, dengan struktur scaffolding terbukti esensial untuk membimbing desainer pemula melalui kompleksitas perencanaan pembelajaran terintegrasi teknologi. Novallyan dan Nehru (2025) menemukan bahwa optimalisasi mata kuliah profesi guru melalui metode proyek meningkatkan kompetensi pedagogis mahasiswa pendidikan biologi. Akbulut dan Oner (2021) melaporkan bahwa pengalaman PjBL meningkatkan kompetensi terkait teknologi calon guru. Secara kolektif, studi-studi ini menetapkan PjBL sebagai intervensi yang viable untuk meningkatkan dimensi spesifik kompetensi guru, meskipun belum ada yang meneliti pengaruh simultan PjBL terhadap multiple dimensi integrasi dalam satu model struktural.
+
+### 2.2 Technological Pedagogical Content Knowledge (TPACK)
+
+Kerangka TPACK, diperkenalkan oleh Mishra dan Koehler (2006) dan berlandaskan pada konstruk seminal Shulman (1986) tentang Pedagogical Content Knowledge (PCK), mengartikulasikan domain pengetahuan yang beririsan yang diperlukan untuk pengajaran efektif dengan peningkatan teknologi. TPACK terdiri dari tujuh komponen: Technology Knowledge (TK), Pedagogical Knowledge (PK), Content Knowledge (CK), dan irisan berpasangannya—Technological Pedagogical Knowledge (TPK), Technological Content Knowledge (TCK), dan Pedagogical Content Knowledge (PCK)—yang memuncak pada inti integratif TPACK itu sendiri, yang merepresentasikan pengetahuan yang diperlukan untuk mengajarkan konten spesifik dengan teknologi yang tepat menggunakan strategi pedagogis yang sesuai.
+
+Bagi calon guru IPA, pengembangan TPACK sangat kritis karena pembelajaran sains semakin bergantung pada alat digital untuk simulasi, pengumpulan data, visualisasi, dan inkuiri kolaboratif. Pengukuran TPACK telah berevolusi dari survei laporan diri menuju asesmen berbasis kinerja, termasuk rencana pembelajaran yang dievaluasi dengan rubrik yang menangkap integrasi teknologi, pedagogi, dan konten yang diterapkan (Offermann et al., 2025). Pendekatan berbasis kinerja ini diadopsi dalam studi ini, di mana indikator TPACK dinilai melalui kualitas komponen rencana pembelajaran, bukan melalui pengetahuan yang dipersepsikan sendiri.
+
+Studi-studi pemodelan persamaan struktural terbaru telah meneliti TPACK dalam kaitannya dengan konstruk lain. Mansour et al. (2024) menginvestigasi integrasi TPACK dalam konteks pendidikan STEM di Qatar, menemukan hubungan struktural signifikan antara komponen TPACK dan efikasi pengajaran STEM. Salleh et al. (2025) mengeksplorasi trajektori pengembangan TPACK di kalangan calon guru, mengidentifikasi pengetahuan konten dan efikasi diri teknologi sebagai prediktor kunci. Studi-studi ini memberikan preseden metodologis untuk pendekatan SEM yang diadopsi di sini, sekaligus menyoroti kesenjangan bahwa TPACK jarang dimodelkan bersama STEM dan ESD dalam satu kerangka struktural tunggal.
+
+### 2.3 Pendidikan STEM dan Desain Pembelajaran Integratif
+
+Pendidikan STEM, dikonseptualisasikan sebagai integrasi purposif dari disiplin sains, teknologi, teknik, dan matematika, telah mendapatkan traksi substansial baik sebagai filosofi pendidikan maupun kerangka kurikuler (Kelley & Knowles, 2016). Perbedaan antara instruksi STEM disipliner—di mana mata pelajaran diajarkan secara terpisah—dan pendidikan STEM integratif—di mana batas-batas disipliner sengaja dilewati untuk mengatasi masalah kompleks—sangat konsekuensial untuk desain rencana pembelajaran. Instruksi STEM integratif mengharuskan guru untuk merancang pengalaman belajar yang menanamkan proses desain teknik, penalaran matematis, dan aplikasi teknologi dalam konten sains, tugas desain yang menuntut yang sering sulit dicapai oleh guru pemula.
+
+Kelley dan Knowles (2016) mengusulkan kerangka konseptual untuk pendidikan STEM terintegrasi yang menekankan pembelajaran situated, desain teknik sebagai strategi pedagogis, inkuiri ilmiah sebagai proses pembangunan pengetahuan, dan pemikiran matematis sebagai fondasi analitis. Dalam kerangka ini, kualitas rencana pembelajaran terintegrasi STEM dapat dievaluasi sepanjang empat dimensi: akurasi dan kedalaman konten sains, integrasi purposif teknologi, kehadiran pemikiran desain teknik, dan aplikasi penalaran matematis.
+
+Bagi calon guru IPA, mengembangkan kompetensi integrasi STEM membutuhkan gerakan melampaui zona nyaman disipliner dan mengembangkan apa yang Tucker et al. (2024) gambarkan sebagai efikasi diri STEM—kepercayaan diri dan kapabilitas untuk merancang pengalaman belajar interdisipliner. Tantangan ini sangat akut untuk integrasi terkait ESD, di mana calon guru harus mempertimbangkan konteks keberlanjutan yang kurang familiar dibandingkan topik STEM tradisional.
+
+### 2.4 Education for Sustainable Development (ESD) dalam Pengajaran IPA
+
+Education for Sustainable Development merepresentasikan paradigma pendidikan global yang berupaya membekali peserta didik dengan pengetahuan, keterampilan, nilai, dan sikap yang diperlukan untuk mengatasi tantangan keberlanjutan yang saling terhubung (UNESCO, 2017). Untuk pendidikan guru IPA, ESD memperkenalkan kompetensi spesifik yang melampaui pedagogi IPA tradisional: kemampuan untuk menghubungkan konsep ilmiah dengan isu keberlanjutan (ESD-PCK), untuk menggunakan pendekatan berbasis inkuiri dalam menginvestigasi tantangan lingkungan dan sosial (ESD-INQ), dan untuk memupuk pemikiran evaluatif tentang dilema sosio-ilmiah dan trade-off (ESD-EVA) (UNECE, 2012).
+
+Purwianingsih et al. (2022) mengembangkan program untuk mengintegrasikan ESD ke dalam TPACK calon guru biologi, membangun jembatan teoretis dan praktis antara integrasi teknologi dan pendidikan keberlanjutan. Karya mereka, yang diterbitkan di *Journal of Pendidikan IPA Indonesia (JPII)*, mendemonstrasikan bahwa program integrasi terstruktur dapat meningkatkan kapasitas calon guru untuk menanamkan perspektif keberlanjutan dalam pelajaran IPA yang ditingkatkan teknologi. Shumba dan Kampamba (2013) lebih lanjut mengeksplorasi pengetahuan konten pedagogis spesifik ESD, berargumen bahwa guru memerlukan pengetahuan khusus untuk menerjemahkan konsep keberlanjutan abstrak ke dalam aksi pedagogis konkret.
+
+Meskipun ada kemajuan-kemajuan ini, ESD tetap menjadi dimensi yang paling kurang berkembang dari tiga dimensi integrasi dalam penelitian pendidikan guru. Tidak seperti TPACK, yang diuntungkan oleh dekade investigasi empiris, dan integrasi STEM, yang didukung oleh infrastruktur kebijakan substansial, integrasi ESD dalam desain rencana pembelajaran masih merupakan area yang berkembang. Kebaruan relatif ini memiliki implikasi untuk studi ini: kompetensi ESD mungkin memerlukan scaffolding yang lebih intensif atau berkepanjangan dibandingkan kompetensi TPACK atau STEM, dan responsivitasnya terhadap intervensi PjBL jangka pendek mungkin berbeda.
+
+### 2.5 Perencanaan Pembelajaran Integratif sebagai Kompetensi Desain Guru
+
+Konsep teacher design capacity, diperkenalkan oleh Brown (2009) dan dielaborasi oleh McKenney et al. (2015), memberikan jangkar teoretis untuk mengonseptualisasikan perencanaan pembelajaran integratif sebagai kompetensi profesional tingkat tinggi. Brown (2009) berargumen bahwa penggunaan kurikulum yang efektif mengharuskan guru berfungsi sebagai desainer yang secara aktif menginterpretasi, mengadaptasi, dan menciptakan materi instruksional sebagai respons terhadap tuntutan kontekstual. Kapasitas desain ini bukan sifat tetap tetapi kompetensi dinamis yang berkembang melalui keterlibatan dengan tugas desain dan umpan balik.
+
+McKenney et al. (2015) memperluas kerangka ini dengan mengidentifikasi basis pengetahuan spesifik—termasuk pengetahuan teknologi, pengetahuan pedagogis, dan pengetahuan materi subjek—yang mendasari kompetensi desain guru. Kerangka ekologis mereka memposisikan pengetahuan desain di persimpangan pengetahuan personal, pengetahuan formal, dan pengalaman praktis, menyarankan bahwa intervensi seperti PjBL, yang menyediakan pengalaman desain terstruktur, dapat mengkatalisis integrasi basis-basis pengetahuan ini.
+
+Dalam studi ini, kompetensi perencanaan pembelajaran integratif dioperasionalisasikan sebagai kualitas rencana pembelajaran yang secara simultan mengintegrasikan dimensi TPACK, STEM, dan ESD. Operasionalisasi ini memposisikan rencana pembelajaran integratif bukan sebagai agregat sederhana dari skor komponen tetapi sebagai konstruk tingkat tinggi (HOC) yang mencerminkan kualitas emergen yang muncul dari integrasi koheren berbagai dimensi desain. Penggunaan asesmen berbasis rubrik—bukan laporan diri—memastikan bahwa konstruk menangkap kompetensi desain yang didemonstrasikan, bukan kemampuan yang dipersepsikan.
+
+### 2.6 Kerangka Konseptual dan Model yang Dihipotesiskan
+
+Berlandaskan fondasi teoretis di atas, studi ini mengusulkan model struktural di mana PjBL berfungsi sebagai konstruk eksogen yang mempengaruhi tiga konstruk endogen orde pertama—kompetensi integrasi TPACK, STEM, dan ESD—yang pada gilirannya berkontribusi terhadap kualitas rencana pembelajaran integratif (lihat Gambar 1). Model ini mempostulatkan baik efek langsung (PjBL -> TPACK, PjBL -> STEM, PjBL -> ESD) maupun efek tidak langsung (PjBL -> TPACK/STEM/ESD -> Kualitas Rencana Pembelajaran Integratif), dengan ketiga dimensi integrasi dihipotesiskan memediasi hubungan antara PjBL dan kualitas rencana pembelajaran.
+
+![Model struktural yang dihipotesiskan](model.png)
+
+*Gambar 1.* Model struktural yang dihipotesiskan. PjBL mempengaruhi tiga dimensi integrasi (TPACK, STEM, ESD) yang kemudian berkontribusi terhadap kualitas rencana pembelajaran integratif. Garis putus-putus menunjukkan jalur langsung PjBL ke RPP, yang dihipotesiskan tidak signifikan (mediasi penuh).
+
+Justifikasi teoretis untuk setiap jalur adalah sebagai berikut:
+
+1. **PjBL -> TPACK:** Penekanan PjBL pada penciptaan artefak dan investigasi berbasis inkuiri secara alami memerlukan mobilisasi teknologi untuk pedagogi spesifik konten (Dewi et al., 2022).
+2. **PjBL -> STEM:** Pertanyaan pendorong autentik PjBL biasanya mencakup berbagai disiplin STEM, memerlukan pemikiran desain interdisipliner (Krajcik & Shin, 2014).
+3. **PjBL -> ESD:** Fokus PjBL pada masalah dunia nyata menciptakan peluang untuk mengatasi isu keberlanjutan, meskipun kekuatan tautan ini mungkin bergantung pada scaffolding eksplisit (Purwianingsih et al., 2022).
+4. **TPACK/STEM/ESD -> Kualitas Rencana Pembelajaran Integratif:** Setiap dimensi menyumbang elemen desain substantif—integrasi teknologi, koneksi interdisipliner, dan perspektif keberlanjutan—yang secara kolektif menentukan kualitas rencana pembelajaran integratif (Brown, 2009; McKenney et al., 2015).
+5. **Mediasi:** PjBL dihipotesiskan mempengaruhi kualitas rencana pembelajaran tidak secara langsung tetapi melalui peningkatan kompetensi integrasi, konsisten dengan pandangan bahwa intervensi pedagogis beroperasi dengan mengembangkan basis pengetahuan profesional spesifik yang kemudian termanifestasi dalam kinerja desain.
+
+Model ini diuji menggunakan PLS-SEM, pendekatan berbasis varians yang sesuai untuk tujuan eksploratori-konfirmatori studi, inklusi konstruk indikator tunggal (kualitas rencana pembelajaran), dan ukuran sampel yang relatif kecil (N = 95) (Hair et al., 2022).
+
+---
 
 ## 3. Metode
 
 ### 3.1 Desain Penelitian
 
-Penelitian menggunakan desain pra-eksperimen one-group pretest-posttest (Creswell & Creswell, 2018). Desain ini dipilih untuk melihat perubahan kemampuan desain sebelum dan sesudah intervensi PjBL pada satu kelompok peserta, serta menguji model struktural berbasis data posttest.
+Penelitian ini menggunakan desain pra-eksperimental satu kelompok pretest-posttest (Creswell & Creswell, 2018) untuk meneliti efek intervensi Project-Based Learning (PjBL) terhadap kompetensi perencanaan pembelajaran integratif calon guru IPA. Partisipan merancang rencana pembelajaran sebelum dan sesudah intervensi PjBL, dan kualitas rencana pembelajaran ini dinilai menggunakan rubrik terstandar pada tiga dimensi integrasi: TPACK, STEM, dan ESD. Desain pra-eksperimental dipilih karena tujuan utama penelitian bukan untuk menetapkan inferensi kausal ketat melalui perbandingan antar-kelompok, melainkan untuk (a) mendokumentasikan perubahan kompetensi desain integratif setelah intervensi dan (b) memodelkan hubungan struktural antara kualitas implementasi PjBL, dimensi integrasi, dan kualitas rencana pembelajaran secara keseluruhan menggunakan PLS-SEM. Ketiadaan kelompok kontrol diakui sebagai keterbatasan pada Bagian 5.8.
 
 ### 3.2 Partisipan
 
-Partisipan berjumlah 95 mahasiswa calon guru IPA dari satu universitas negeri di Indonesia. Sampel dipilih secara purposive berdasarkan keikutsertaan dalam mata kuliah perencanaan pembelajaran IPA. Seluruh partisipan mengikuti rangkaian pretest, intervensi, dan posttest.
+Partisipan adalah 95 calon guru IPA yang terdaftar dalam program pendidikan guru di sebuah universitas negeri di Indonesia. Seluruh partisipan adalah mahasiswa sarjana tahun ketiga atau keempat yang telah menyelesaikan mata kuliah dasar konten sains, pedagogi umum, dan teknologi pendidikan. Pengambilan sampel purposif diterapkan, memilih partisipan yang secara bersamaan terdaftar dalam mata kuliah tentang perencanaan instruksional untuk pendidikan IPA, yang berfungsi sebagai lokasi natural untuk intervensi PjBL. Ukuran sampel $N = 95$ melebihi ambang batas minimum yang direkomendasikan untuk PLS-SEM, yang Hair et al. (2022) sarankan setidaknya sepuluh kali jumlah maksimum jalur struktural yang diarahkan ke konstruk tunggal mana pun (dalam model ini, empat jalur diarahkan ke konstruk RPP, menghasilkan minimum 40). Seluruh partisipan memberikan informed consent sebelum pengumpulan data, dan penelitian dilakukan sesuai dengan pedoman etika institusi yang berpartisipasi.
 
-### 3.3 Intervensi PjBL
+### 3.3 Intervensi: Implementasi PjBL
 
-Intervensi PjBL dilaksanakan melalui lima tahap: (1) orientasi masalah dan driving question, (2) perencanaan-investigasi, (3) produksi artefak RPP, (4) peer review dan revisi, serta (5) presentasi-refleksi. Kualitas implementasi dinilai menggunakan instrumen observasi PjBL.
+Intervensi PjBL diimplementasikan sepanjang mata kuliah perencanaan instruksional dalam urutan sesi terstruktur. Partisipan terlibat dalam siklus proyek yang mengharuskan mereka merancang rencana pembelajaran integratif yang secara simultan menggabungkan dimensi TPACK, STEM, dan ESD. Intervensi mengikuti lima tahap yang diadaptasi dari Krajcik dan Shin (2014):
+
+1. **Orientasi dan pertanyaan pendorong.** Partisipan diperkenalkan pada masalah keberlanjutan dunia nyata yang terkait dengan bidang konten sains mereka. Pertanyaan pendorong dirancang untuk memerlukan inkuiri interdisipliner dan pertimbangan dimensi keberlanjutan lingkungan, sosial, dan ekonomi.
+
+2. **Perencanaan dan investigasi.** Partisipan menginvestigasi konten ilmiah, mengidentifikasi teknologi relevan untuk instruksi, mengeksplorasi koneksi lintas disiplin STEM, dan memeriksa implikasi keberlanjutan. Mereka diberikan kerangka contoh rencana pembelajaran dan kriteria rubrik untuk memandu proses desain mereka.
+
+3. **Penciptaan artefak.** Partisipan merancang rencana pembelajaran integratif (RPP) sebagai artefak proyek utama. Setiap rencana pembelajaran diharuskan mendemonstrasikan integrasi eksplisit pedagogi yang ditingkatkan teknologi (TPACK), koneksi STEM interdisipliner, dan perspektif keberlanjutan (ESD).
+
+4. **Peer review dan revisi.** Draf yang telah selesai menjalani peer review terstruktur menggunakan rubrik yang sama yang digunakan untuk asesmen formal. Partisipan merevisi rencana pembelajaran mereka berdasarkan umpan balik peer, proses yang dimaksudkan untuk memperdalam pemahaman mereka tentang kriteria kualitas integrasi.
+
+5. **Presentasi dan refleksi.** Partisipan mempresentasikan rencana pembelajaran final mereka, mengartikulasikan rasional desain mereka, dan merefleksikan proses integrasi. Tahap ini menyediakan peluang untuk keterlibatan metakognitif dengan tantangan desain yang dihadapi.
+
+Kualitas implementasi PjBL dinilai melalui instrumen observasi yang diisi oleh instruktur mata kuliah, mengukur kesetiaan dan kualitas setiap tahap PjBL seperti yang dialami oleh partisipan.
 
 ### 3.4 Instrumen
 
-Instrumen utama berupa rubrik RPP integratif skala 1-4, meliputi:
+#### 3.4.1 Rubrik Rencana Pembelajaran Integratif (Pretest-Posttest)
 
-- TPACK: 7 indikator (TK, PK, CK, TPK, TCK, PCK, TPACK)
-- STEM: 4 indikator (S, T, E, M)
-- ESD: 3 indikator (ESD-PCK, ESD-INQ, ESD-EVA)
+Instrumen utama adalah rubrik untuk mengevaluasi kualitas rencana pembelajaran integratif, diskor pada skala Likert empat poin (1 = tidak memenuhi kriteria, 2 = sebagian memenuhi, 3 = memenuhi, 4 = melampaui kriteria). Rubrik menilai tiga dimensi integrasi yang terdiri dari 14 indikator:
 
-Instrumen kedua adalah observasi PjBL (5 item). Pada tahap pemodelan, PjBL05 dieliminasi karena variansi nol.
+- **TPACK** (7 indikator): Technology Knowledge (TK), Pedagogical Knowledge (PK), Content Knowledge (CK), Technological Pedagogical Knowledge (TPK), Technological Content Knowledge (TCK), Pedagogical Content Knowledge (PCK), dan komponen TPACK integratif.
+- **STEM** (4 indikator): Integrasi konten Sains (S), Aplikasi Teknologi (T), Proses desain Teknik/Engineering (E), dan Penalaran Matematis (M).
+- **ESD** (3 indikator): ESD-Pedagogical Content Knowledge (ESD-PCK), ESD-Inquiry (ESD-INQ), dan ESD-Evaluative thinking (ESD-EVA).
 
-### 3.5 Analisis Data
+Skor komposit untuk setiap dimensi dihitung sebagai mean dari indikator penyusunnya. Skor kualitas rencana pembelajaran integratif keseluruhan (RPPInt_total) dihitung sebagai grand mean dari seluruh 14 indikator, mengoperasionalisasikan kualitas rencana pembelajaran integratif sebagai komposit dari tiga dimensi. Rubrik dikembangkan melalui penilaian ahli yang melibatkan tiga spesialis pendidikan IPA dan mendemonstrasikan validitas konten yang memadai.
 
-Analisis RM1: statistik deskriptif, Shapiro-Wilk, uji berpasangan (t-test/Wilcoxon), ukuran efek, dan N-Gain (Hake, 1998).
+#### 3.4.2 Instrumen Observasi Implementasi PjBL
 
-Analisis RM2-RM5: PLS-SEM (`plspm` Python 0.5.7) dengan bootstrap 5000 iterasi dan seed 42. Parameter yang dilaporkan mencakup outer loading, AVE, CR, alpha, HTMT, Fornell-Larcker, koefisien jalur, p-value, CI 95%, f², R², Q², serta indirect effect dan VAF.
+Kualitas implementasi PjBL diukur menggunakan instrumen observasi lima item, dengan setiap item diskor pada skala 1--4 yang sesuai dengan lima tahap PjBL. Instrumen diisi oleh instruktur mata kuliah yang mengobservasi proses implementasi. Pada versi data saat ini, kelima item (PjBL01--PjBL05) dipertahankan dalam analisis SEM.
+
+### 3.5 Prosedur Pengumpulan Data
+
+Pengumpulan data mengikuti timeline tiga fase: (a) pretest, di mana partisipan merancang rencana pembelajaran awal yang diskor menggunakan rubrik integratif; (b) intervensi PjBL, selama mana kualitas implementasi PjBL diobservasi dan diskor; dan (c) posttest, di mana partisipan merancang rencana pembelajaran kedua dalam kondisi yang sama, diskor oleh penilai yang sama menggunakan rubrik identik. Rencana pembelajaran dianonimkan sebelum penskoran untuk mengurangi bias penilai.
+
+### 3.6 Analisis Data
+
+Analisis data berlangsung dalam dua fase yang sesuai dengan pertanyaan penelitian.
+
+#### 3.6.1 Fase 1: Perbandingan Pre-Post (RQ1)
+
+Untuk menjawab RQ1, yang meneliti perubahan kompetensi integrasi sebelum dan sesudah intervensi PjBL, analisis berikut dilakukan:
+
+- **Statistik deskriptif** (mean, standar deviasi, minimum, maksimum) dihitung untuk setiap konstruk dan indikator pada pretest dan posttest.
+- **Uji normalitas** dilakukan menggunakan uji Shapiro-Wilk pada skor selisih (posttest minus pretest) untuk setiap konstruk, mengingat ukuran sampel $N = 95$.
+- **Uji inferensial berpasangan** diterapkan berdasarkan hasil normalitas: paired-samples t-test untuk konstruk dengan skor selisih terdistribusi normal, dan uji Wilcoxon signed-rank untuk konstruk yang melanggar asumsi normalitas. Tingkat signifikansi ditetapkan pada $\alpha = 0{,}05$.
+- **Effect sizes** dihitung menggunakan Cohen's $d$ untuk uji parametrik dan korelasi rank-biserial $r$ untuk uji non-parametrik. Effect sizes diinterpretasikan mengikuti Cohen (1988): kecil ($d = 0{,}2$), sedang ($d = 0{,}5$), dan besar ($d = 0{,}8$).
+- **Normalized gain (N-Gain)** dihitung menggunakan formula Hake (1998): N-Gain $= \frac{\text{post} - \text{pre}}{\text{max} - \text{pre}}$, di mana max $= 4$ (skor rubrik maksimum). Nilai N-Gain dikategorikan sebagai Tinggi ($> 0{,}7$), Sedang ($0{,}3$--$0{,}7$), atau Rendah ($< 0{,}3$).
+
+Seluruh analisis Fase 1 dilakukan di Python 3.11 menggunakan pandas, scipy, dan pingouin.
+
+#### 3.6.2 Fase 2: Structural Equation Modeling (RQ2--RQ5)
+
+Untuk menjawab RQ2 sampai RQ5, Partial Least Squares Structural Equation Modeling (PLS-SEM) digunakan. PLS-SEM dipilih dibanding covariance-based SEM (CB-SEM) untuk beberapa alasan: (a) sifat eksploratori-konfirmatori penelitian, menguji model integratif baru untuk pertama kalinya; (b) inklusi konstruk indikator tunggal (RPPInt_total_post untuk konstruk RPP); (c) ukuran sampel moderat ($N = 95$), yang memadai untuk PLS-SEM tetapi mungkin tidak cukup untuk CB-SEM dengan kompleksitas model yang dispesifikasikan; dan (d) kapasitas PLS-SEM untuk menangani data non-normal dan pengukuran formatif (Hair et al., 2022).
+
+**Spesifikasi model.** Model struktural terdiri dari lima konstruk: PjBL (eksogen), TPACK, STEM, ESD, dan RPP (endogen). Seluruh konstruk dispesifikasikan sebagai reflektif (Mode A). Jalur struktural mencakup tujuh hubungan: PjBL $\rightarrow$ TPACK, PjBL $\rightarrow$ STEM, PjBL $\rightarrow$ ESD, PjBL $\rightarrow$ RPP (langsung), TPACK $\rightarrow$ RPP, STEM $\rightarrow$ RPP, dan ESD $\rightarrow$ RPP. Konstruk RPP dioperasionalisasikan sebagai konstruk indikator tunggal menggunakan skor kualitas rencana pembelajaran integratif komposit (RPPInt_total_post), dengan loading indikator difiksasi ke 1,000. Matriks data untuk analisis SEM menggunakan skor posttest untuk TPACK, STEM, ESD, dan RPP, serta skor observasi PjBL, menghasilkan 19 variabel manifes.
+
+**Evaluasi model pengukuran.** Model outer (pengukuran) dinilai menggunakan kriteria PLS-SEM standar (Hair et al., 2022):
+
+- *Reliabilitas indikator:* outer loadings $\geq 0{,}708$ (indikator antara 0,40 dan 0,70 dipertahankan jika penghapusannya tidak meningkatkan AVE atau CR, mengikuti rekomendasi Hair et al. untuk penelitian eksploratori).
+- *Validitas konvergen:* Average Variance Extracted (AVE) $\geq 0{,}50$.
+- *Reliabilitas konsistensi internal:* Composite Reliability (CR) $\geq 0{,}70$ dan Cronbach's $\alpha \geq 0{,}70$.
+- *Validitas diskriminan:* rasio Heterotrait-Monotrait (HTMT) $< 0{,}90$ (Henseler et al., 2015), dilengkapi dengan kriteria Fornell-Larcker.
+
+**Evaluasi model struktural.** Model inner (struktural) dinilai melalui:
+
+- *Koefisien jalur ($\beta$):* koefisien regresi terstandar yang menunjukkan kekuatan dan arah hubungan struktural.
+- *Signifikansi statistik:* ditentukan melalui bootstrapping (5.000 iterasi) dengan confidence interval percentile 95% (2,5%-97,5%). Prosedur bootstrap manual terpadu digunakan, di mana setiap resample bootstrap secara simultan menghasilkan koefisien jalur dan efek tidak langsung, memastikan konsistensi di seluruh analisis langsung dan mediasi.
+- *Koefisien determinasi ($R^2$):* proporsi varians dalam konstruk endogen yang dijelaskan oleh model. Diinterpretasikan sebagai substansial (0,75), moderat (0,50), atau lemah (0,25) (Hair et al., 2022).
+- *Effect size ($f^2$):* dampak inkremental setiap konstruk eksogen terhadap konstruk endogen. Diinterpretasikan sebagai kecil (0,02), sedang (0,15), atau besar (0,35) (Cohen, 1988).
+- *Relevansi prediktif ($Q^2$):* dinilai menggunakan pendekatan cross-validated latent-score berbasis 10-fold cross-validation ($k = 10$) sebagai aproksimasi Stone-Geisser (bukan blindfolding klasik berbasis indikator). Nilai di atas nol menunjukkan relevansi prediktif.
+
+**Analisis mediasi (RQ5).** Efek tidak langsung dihitung sebagai produk koefisien jalur penyusun (misalnya, efek tidak langsung PjBL terhadap RPP melalui TPACK $= \beta_{\text{PjBL}\rightarrow\text{TPACK}} \times \beta_{\text{TPACK}\rightarrow\text{RPP}}$). Signifikansi statistik efek tidak langsung ditentukan melalui metode confidence interval bootstrap (Preacher & Hayes, 2008): efek tidak langsung dianggap signifikan jika confidence interval percentile 95% tidak mencakup nol. Uji Sobel juga dihitung sebagai cross-check. Variance Accounted For (VAF) dihitung untuk mengklasifikasikan tipe mediasi: mediasi penuh (VAF $> 80\%$), mediasi parsial ($20\% <$ VAF $< 80\%$), atau tanpa mediasi (VAF $< 20\%$) (Hair et al., 2022).
+
+**Analisis komparatif (RQ3).** Pengaruh relatif PjBL terhadap setiap dimensi integrasi dinilai dengan membandingkan koefisien jalur dan nilai $f^2$ terkait. Confidence intervals bootstrap diperiksa untuk overlap untuk menentukan apakah perbedaan yang diamati bermakna secara statistik.
+
+**Perangkat lunak.** Analisis PLS-SEM dilakukan menggunakan paket Python plspm (versi 0.5.7) dengan random seed 42 untuk reprodusibilitas. Seluruh prosedur bootstrap menggunakan 5.000 iterasi dengan konfigurasi single-process untuk memastikan eksekusi deterministik. Gambar dihasilkan menggunakan matplotlib.
+
+---
 
 ## 4. Hasil
 
-### 4.1 RM1 — Perubahan Pre-Post
+### 4.1 Statistik Deskriptif
 
-Semua konstruk meningkat signifikan setelah intervensi. Ringkasan statistik utama:
+Sebelum pengujian hipotesis, kami memeriksa statistik deskriptif untuk seluruh konstruk. Tabel 1 menyajikan rata-rata dan simpangan baku tingkat konstruk pada pretest dan posttest, sementara Gambar 1 memberikan perbandingan visual.
 
-| Konstruk | Mean Pre | Mean Post | Mean Diff | p-value | Cohen's d |
-|---|---:|---:|---:|---:|---:|
-| TPACK | 2,306 | 3,319 | 1,013 | <0,001 | 2,705 |
-| STEM | 2,172 | 3,222 | 1,051 | <0,001 | 2,657 |
-| ESD | 1,929 | 2,726 | 0,798 | <0,001 | 2,338 |
-| RPP Integratif | 2,136 | 3,089 | 0,954 | <0,001 | 4,194 |
+**Tabel 1.** Statistik Deskriptif per Konstruk (Pretest vs Posttest)
 
-![Gambar 1: Skor Rata-rata Pre-test vs Post-test per Konstruk](../outputs/rm1/fig1_pre_post_comparison.png)
+| Konstruk | $N$ | Pre $M$ | Pre $SD$ | Post $M$ | Post $SD$ | $M_{\text{diff}}$ |
+|---|---|---|---|---|---|---|
+| TPACK | 95 | 2,306 | 0,390 | 3,319 | 0,294 | 1,013 |
+| STEM | 95 | 2,172 | 0,393 | 3,222 | 0,378 | 1,051 |
+| ESD | 95 | 1,929 | 0,328 | 2,726 | 0,259 | 0,798 |
+| RPP Integratif | 95 | 2,136 | 0,256 | 3,089 | 0,237 | 0,954 |
 
-N-Gain seluruh konstruk berada pada kategori medium, dengan ESD paling rendah.
+*Catatan.* Rentang skala: 1–4. RPP Integratif = rata-rata keseluruhan dari 14 indikator.
 
-| Konstruk | Mean N-Gain | Kategori | % High | % Medium | % Low |
-|---|---:|---|---:|---:|---:|
-| TPACK | 0,596 | Medium | 26,3 | 72,6 | 1,1 |
-| STEM | 0,574 | Medium | 24,2 | 69,5 | 6,3 |
-| ESD | 0,376 | Medium | 0,0 | 71,6 | 28,4 |
-| RPP Integratif | 0,513 | Medium | 3,2 | 95,8 | 1,1 |
+Sebagaimana ditunjukkan pada Tabel 1, seluruh konstruk menunjukkan peningkatan substansial setelah intervensi PjBL. Perbedaan rata-rata terbesar diamati pada STEM ($M_{\text{diff}} = 1{,}051$), diikuti TPACK ($M_{\text{diff}} = 1{,}013$), RPP Integratif ($M_{\text{diff}} = 0{,}954$), dan ESD ($M_{\text{diff}} = 0{,}798$).
 
-![Gambar 2: Distribusi Kategori N-Gain per Konstruk](../outputs/rm1/fig2_ngain_distribution.png)
+![Gambar 1. Perbandingan Skor Rata-rata Pre-test vs Post-test per Konstruk](../outputs/rm1/fig1_pre_post_comparison.png)
 
-### 4.2 RM2 — Pengaruh Langsung PjBL
+*Gambar 1.* Skor rata-rata pre-test vs post-test per konstruk, dengan error bar menunjukkan simpangan baku. Seluruh konstruk menunjukkan peningkatan substansial setelah intervensi PjBL.
 
-| Jalur | Beta | Boot Mean | SE | t | p-value | CI 95% | Signifikan | f² | Interpretasi f² |
-|---|---:|---:|---:|---:|---:|---|---|---:|---|
-| PjBL → TPACK | 0,718 | 0,722 | 0,053 | 13,561 | <0,001 | [0,606; 0,811] | Ya | 1,063 | Besar |
-| PjBL → STEM | 0,671 | 0,675 | 0,056 | 11,987 | <0,001 | [0,558; 0,775] | Ya | 0,820 | Besar |
-| PjBL → ESD | 0,612 | 0,613 | 0,065 | 9,454 | <0,001 | [0,482; 0,733] | Ya | 0,598 | Besar |
-| PjBL → RPP | 0,040 | 0,043 | 0,042 | 1,025 | 0,305 | [-0,038; 0,127] | Tidak | 0,015 | Negligible |
+### 4.2 RM1: Perubahan Pre-Post
 
-R² konstruk endogen: TPACK = 0,515; STEM = 0,451; ESD = 0,374; RPP = 0,978.
+#### Uji Normalitas
 
-Temuan ini menunjukkan PjBL berpengaruh positif dan signifikan terhadap seluruh dimensi integrasi (TPACK, STEM, ESD) dengan ukuran efek besar. Namun, pengaruh langsung PjBL terhadap RPP tidak signifikan, mengindikasikan bahwa mekanisme utama bekerja melalui jalur mediasi.
+Sebelum melakukan perbandingan berpasangan, kami menilai normalitas skor selisih menggunakan uji Shapiro-Wilk. Tabel 2 merangkum hasilnya.
 
-### 4.3 RM3 — Perbandingan Jalur Dominan
+**Tabel 2.** Hasil Uji Normalitas Shapiro-Wilk untuk Skor Selisih
 
-Urutan kekuatan pengaruh PjBL terhadap mediator adalah TPACK > STEM > ESD.
+| Konstruk | $W$ | $p$ | Normal |
+|---|---|---|---|
+| TPACK | 0,968 | ,020 | Tidak |
+| STEM | 0,977 | ,088 | Ya |
+| ESD | 0,990 | ,704 | Ya |
+| RPP Integratif | 0,986 | ,418 | Ya |
 
-| Rank | Dimensi | Beta | t | p | f² |
-|---:|---|---:|---:|---:|---:|
-| 1 | TPACK | 0,718 | 13,561 | <0,001 | 1,063 |
-| 2 | STEM | 0,671 | 11,987 | <0,001 | 0,820 |
-| 3 | ESD | 0,612 | 9,454 | <0,001 | 0,598 |
+Sebagaimana ditunjukkan pada Tabel 2, skor selisih untuk STEM, ESD, dan RPP Integratif terdistribusi normal ($p > {,}05$). Namun, skor selisih TPACK menyimpang signifikan dari normalitas ($W = 0{,}968$, $p = {,}020$). Oleh karena itu, paired-samples t-test diterapkan pada STEM, ESD, dan RPP Integratif, sementara Wilcoxon signed-rank test digunakan untuk TPACK.
 
-![Figur 3. Perbandingan Koefisien Jalur PjBL -> TPACK/STEM/ESD](../outputs/rm2_rm5/fig3_sem_rm3_paths.png)
+#### Uji Berpasangan dan Ukuran Efek
 
-Seluruh dimensi responsif terhadap intervensi PjBL dengan ukuran efek besar. TPACK menunjukkan respons terkuat, diikuti STEM dan ESD.
+**Tabel 3.** Hasil Uji Berpasangan
 
-### 4.4 RM4 — Kontribusi TPACK, STEM, ESD terhadap RPP Integratif
+| Konstruk | Uji | Statistik | $p$ | Cohen's $d$ | Interpretasi |
+|---|---|---|---|---|---|
+| TPACK | Wilcoxon | $W = 0{,}0$ | $< {,}001$ | 2,705 | Besar |
+| STEM | Paired t | $t(94) = 25{,}90$ | $< {,}001$ | 2,657 | Besar |
+| ESD | Paired t | $t(94) = 22{,}79$ | $< {,}001$ | 2,338 | Besar |
+| RPP Integratif | Paired t | $t(94) = 40{,}88$ | $< {,}001$ | 4,194 | Besar |
 
-| Jalur ke RPP | Beta | Boot Mean | SE | t | p | f² | Interpretasi f² |
-|---|---:|---:|---:|---:|---:|---:|---|
-| STEM → RPP | 0,483 | 0,484 | 0,036 | 13,503 | <0,001 | 5,785 | Besar |
-| TPACK → RPP | 0,420 | 0,414 | 0,036 | 11,645 | <0,001 | 2,987 | Besar |
-| ESD → RPP | 0,340 | 0,335 | 0,040 | 8,464 | <0,001 | 2,546 | Besar |
-| PjBL → RPP (langsung) | 0,040 | 0,043 | 0,042 | 1,025 | 0,305 | 0,015 | Negligible |
+*Catatan.* Wilcoxon $W = 0{,}0$ menunjukkan seluruh partisipan meningkat; Cohen's $d$ untuk TPACK dihitung sebagai rata-rata skor selisih dibagi simpangan baku skor selisih (paired-samples $d_z$).
 
-Ketiga dimensi berkontribusi signifikan dan kuat terhadap kualitas RPP integratif dengan urutan STEM > TPACK > ESD.
+Sebagaimana ditunjukkan pada Tabel 3, keempat konstruk menunjukkan peningkatan signifikan secara statistik dari pretest ke posttest ($p < {,}001$). Ukuran efek seragam besar, dengan nilai Cohen's $d$ melebihi 2,3 untuk seluruh konstruk.
 
-![Figur 4. Jalur ke Kualitas RPP Integratif](../outputs/rm2_rm5/fig4_sem_full_model_hoc_proxy.png)
+#### Normalized Gain
 
-R² RPP = 0,978; Q² RPP = 0,975 (relevansi prediktif sangat kuat).
+Di luar signifikansi statistik dan ukuran efek, kami menghitung normalized gain (N-Gain) untuk mengukur proporsi peningkatan maksimum yang dapat dicapai. Tabel 4 menyajikan ringkasan N-Gain, sementara Gambar 2 memvisualisasikan distribusi kategori gain.
 
-### 4.5 RM5 — Analisis Mediasi
+**Tabel 4.** Ringkasan N-Gain
 
-| Jalur Mediasi | Indirect Beta | Boot Mean | SE | t | p | CI 95% | VAF | Tipe Mediasi |
-|---|---:|---:|---:|---:|---:|---|---:|---|
-| PjBL → TPACK → RPP | 0,301 | 0,299 | 0,034 | 8,840 | <0,001 | [0,235; 0,364] | 0,345 | Partial |
-| PjBL → STEM → RPP | 0,324 | 0,327 | 0,033 | 9,825 | <0,001 | [0,265; 0,395] | 0,371 | Partial |
-| PjBL → ESD → RPP | 0,208 | 0,205 | 0,031 | 6,642 | <0,001 | [0,148; 0,270] | 0,238 | Partial |
-| Total indirect | 0,833 | 0,830 | 0,038 | 21,919 | <0,001 | [0,756; 0,905] | — | — |
-| Direct PjBL → RPP | 0,040 | 0,043 | 0,042 | 1,025 | 0,305 | [-0,038; 0,127] | — | — |
-| Total effect | 0,873 | 0,873 | 0,023 | 38,027 | <0,001 | [0,822; 0,913] | — | — |
+| Konstruk | N-Gain $M$ | $SD$ | Kategori | High (%) | Medium (%) | Low (%) |
+|---|---|---|---|---|---|---|
+| TPACK | 0,596 | 0,160 | Medium | 26,3 | 72,6 | 1,1 |
+| STEM | 0,574 | 0,179 | Medium | 24,2 | 69,5 | 6,3 |
+| ESD | 0,376 | 0,129 | Medium | 0,0 | 71,6 | 28,4 |
+| RPP Integratif | 0,513 | 0,103 | Medium | 3,2 | 95,8 | 1,1 |
 
-Cross-check Sobel test: PjBL→TPACK→RPP (z = 8,882; p < 0,001), PjBL→STEM→RPP (z = 8,918; p < 0,001), PjBL→ESD→RPP (z = 6,362; p < 0,001).
+Sebagaimana ditunjukkan pada Tabel 4, seluruh konstruk mencapai kategori Medium gain ($0{,}3$–$0{,}7$). TPACK memperoleh rata-rata N-Gain tertinggi ($M = 0{,}596$), diikuti STEM ($M = 0{,}574$), RPP Integratif ($M = 0{,}513$), dan ESD ($M = 0{,}376$).
 
-Pola ini menunjukkan **full mediation secara agregat**: efek PjBL ke RPP sepenuhnya bekerja melalui mediator. Seluruh jalur mediasi spesifik signifikan, dengan kontribusi terbesar melalui STEM, diikuti TPACK dan ESD.
+![Gambar 2. Distribusi Kategori N-Gain per Konstruk](../outputs/rm1/fig2_ngain_distribution.png)
 
-![Figur 5. Jalur Mediasi PjBL -> Dimensi -> RPP](../outputs/rm2_rm5/fig5_sem_mediation_paths.png)
+*Gambar 2.* Distribusi kategori N-Gain (High, Medium, Low) per konstruk. ESD tidak memiliki partisipan dengan High-gain dan memiliki proporsi Low-gain tertinggi.
 
-## 5. Pembahasan
+Ringkasnya, analisis pre-post (RM1) menunjukkan bahwa PjBL secara signifikan meningkatkan keempat konstruk dengan ukuran efek besar, meskipun ESD menunjukkan gain terkecil. Untuk memahami hubungan struktural antar konstruk ini, kami beralih ke analisis PLS-SEM yang menjawab RM2–RM5.
 
-Temuan RM1 menegaskan efektivitas PjBL dalam meningkatkan kompetensi desain integratif calon guru IPA. Peningkatan yang konsisten pada seluruh konstruk, disertai ukuran efek besar, menunjukkan intervensi tidak hanya signifikan secara statistik tetapi juga bermakna secara pendidikan. Namun, ketimpangan antar dimensi tetap terlihat: ESD bergerak paling lambat pada level pre-post dengan N-Gain terendah (0,376) dan tanpa kategori high gain. Ini konsisten dengan literatur bahwa integrasi keberlanjutan memerlukan dukungan konseptual dan pedagogik yang lebih eksplisit daripada integrasi teknologi atau STEM.
+### 4.3 RM2–RM5: Analisis PLS-SEM
 
-Pada RM2-RM3, seluruh jalur PjBL ke dimensi integrasi (TPACK, STEM, ESD) signifikan dengan ukuran efek besar. TPACK menunjukkan respons terkuat (beta = 0,718), diikuti STEM (0,671) dan ESD (0,612). Temuan ini mengindikasikan bahwa aktivitas proyek dalam PjBL mampu mengaktifkan seluruh domain kompetensi integratif, meskipun dengan intensitas berbeda. Signifikansi jalur PjBL ke ESD dalam model struktural—yang berbeda dengan pola N-Gain yang lebih lemah pada analisis pre-post—dapat dijelaskan karena model SEM menguji hubungan antara skor posttest, bukan perubahan pre-post. Artinya, mahasiswa yang mengimplementasikan PjBL dengan baik cenderung memiliki skor ESD posttest yang lebih tinggi, meskipun peningkatan dari baseline mereka mungkin tidak setajam dimensi lain.
+#### Evaluasi Model Pengukuran
 
-RM4 menunjukkan bahwa kualitas RPP integratif sangat ditentukan oleh ketiga dimensi mediator. STEM tampil sebagai pendorong utama (beta = 0,483; f² = 5,785), diikuti TPACK (0,420) dan ESD (0,340), semuanya dengan ukuran efek besar. Model mampu menjelaskan 97,8% varians RPP integratif (R² = 0,978), dengan relevansi prediktif sangat kuat (Q² = 0,975).
+Sebelum menguji hipotesis struktural, kami mengevaluasi model pengukuran untuk memastikan reliabilitas dan validitas yang memadai. Tabel 5 menyajikan outer loadings untuk seluruh indikator.
 
-RM5 memperkuat interpretasi mekanisme: PjBL bekerja sepenuhnya melalui mediasi kompetensi integrasi (full mediation secara agregat). Total indirect effect sangat besar (0,833), sementara direct effect tidak signifikan (0,040). Ketiga jalur mediasi spesifik signifikan, dengan kontribusi terbesar dari STEM (0,324), TPACK (0,301), dan ESD (0,208). Temuan ini mengonfirmasi bahwa PjBL tidak langsung meningkatkan kualitas RPP; efeknya bekerja melalui pengembangan kompetensi TPACK, STEM, dan ESD yang kemudian diterjemahkan ke dalam dokumen RPP.
+**Tabel 5.** Outer Loadings
 
-Secara teoretik, studi ini memperkaya agenda teacher design capacity dengan menunjukkan bahwa kapasitas desain RPP integratif terbentuk melalui kombinasi kompetensi yang tidak tumbuh dengan kecepatan yang sama pada level pre-post, meskipun seluruhnya dapat distimulasi oleh intervensi PjBL. Temuan bahwa ESD signifikan dalam model struktural tetapi lemah pada N-Gain menunjukkan bahwa pengukuran kompetensi perlu mempertimbangkan baseline—mahasiswa dengan baseline ESD rendah mungkin menunjukkan gain absolut yang lebih kecil meskipun mencapai skor akhir yang memadai.
+| Konstruk | Indikator | Loading | $\geq 0{,}708$ |
+|---|---|---|---|
+| ESD | ESD-EVA | 0,780 | Ya |
+| ESD | ESD-INQ | 0,894 | Ya |
+| ESD | ESD-PCK | 0,867 | Ya |
+| PjBL | PjBL01 | 0,815 | Ya |
+| PjBL | PjBL02 | 0,804 | Ya |
+| PjBL | PjBL03 | 0,835 | Ya |
+| PjBL | PjBL04 | 0,850 | Ya |
+| PjBL | PjBL05 | 0,840 | Ya |
+| TPACK | TK | 0,689 | Tidak |
+| TPACK | PK | 0,224 | Tidak |
+| TPACK | CK | 0,673 | Tidak |
+| TPACK | TPK | 0,760 | Ya |
+| TPACK | TCK | 0,795 | Ya |
+| TPACK | PCK | 0,400 | Tidak |
+| TPACK | TPACK_int | 0,759 | Ya |
+| STEM | Science | 0,484 | Tidak |
+| STEM | Technology | 0,713 | Ya |
+| STEM | Engineering | 0,577 | Tidak |
+| STEM | Mathematics | 0,916 | Ya |
+| RPP | RPPInt_total | 1,000 | Ya |
 
-Secara praktis, LPTK perlu mengadopsi PjBL sebagai strategi inti pengembangan kompetensi desain, dengan perhatian khusus pada scaffolding ESD. Meskipun ESD responsif terhadap PjBL dalam model struktural, capaian pre-post menunjukkan bahwa dimensi ini memerlukan dukungan instruksional tambahan—misalnya bank isu keberlanjutan lokal, rubrik eksplisit dengan kriteria ESD, dan refleksi nilai keberlanjutan pada tahap revisi proyek.
+*Catatan.* Indikator dengan loading antara 0,40 dan 0,70 dipertahankan mengikuti rekomendasi Hair et al. (2022) untuk penelitian eksploratoris.
 
-## 6. Implikasi
+**Tabel 6.** Reliabilitas Konstruk dan Validitas Konvergen
 
-Implikasi untuk program pendidikan guru:
+| Konstruk | AVE | CR | Cronbach's alpha |
+|---|---|---|---|
+| ESD | 0,720 | 0,886 | 0,807 |
+| PjBL | 0,687 | 0,917 | 0,886 |
+| RPP | 1,000 | 1,000 | — |
+| STEM | 0,480 | 0,814 | 0,694 |
+| TPACK | 0,418 | 0,834 | 0,766 |
 
-- Integrasikan rubrik TPACK-STEM-ESD sebagai asesmen standar dalam mata kuliah perencanaan pembelajaran.
-- Pertahankan PjBL sebagai arsitektur pembelajaran inti untuk pengembangan kompetensi desain.
-- Tambahkan modul dukungan ESD yang eksplisit (contoh kasus, sumber literatur, dan kriteria evaluasi keberlanjutan).
+*Catatan.* Threshold: AVE >= 0,50, CR >= 0,70, alpha >= 0,70. RPP adalah konstruk single-indicator.
 
-Implikasi untuk penelitian lanjutan:
+**Tabel 6b.** Matriks Heterotrait-Monotrait (HTMT)
 
-- Uji model pada desain quasi-experimental dengan kelompok kontrol.
-- Lakukan studi longitudinal untuk menguji retensi kompetensi.
-- Perluas sampel lintas institusi dan lintas konteks.
+| | PjBL | TPACK | STEM | ESD |
+|---|---|---|---|---|
+| PjBL | — | | | |
+| TPACK | 0,837 | — | | |
+| STEM | 0,871 | 0,770 | — | |
+| ESD | 0,716 | 0,298 | 0,456 | — |
 
-## 7. Keterbatasan
+*Catatan.* Seluruh nilai $< 0{,}90$, mendukung validitas diskriminan.
 
-- Desain one-group pretest-posttest membatasi inferensi kausal murni; tidak ada kelompok kontrol untuk mengisolasi efek PjBL.
-- Sampel berasal dari satu institusi sehingga generalisasi ke konteks LPTK lain perlu dilakukan dengan hati-hati.
-- Validitas konvergen (AVE) untuk TPACK dan STEM masih di bawah 0,50, meskipun composite reliability memadai (>0,80). Interpretasi konstruk ini dilakukan dengan kehati-hatian metodologis.
-- RPP dimodelkan sebagai single-indicator construct, yang menyebabkan AVE = 1,0 dan R² sangat tinggi (0,978). Pembaca perlu memahami bahwa metrik ini mencerminkan spesifikasi model, bukan inflasi artifisial.
-- Kriteria Fornell-Larcker tidak sepenuhnya terpenuhi untuk beberapa pasangan yang melibatkan RPP, meskipun HTMT seluruh pasangan berada di bawah 0,90.
-- Bootstrap 5000 iterasi memadai untuk pelaporan akademik; hasil konsisten dengan uji Sobel sebagai cross-check.
+Dengan properti pengukuran yang memadai, kami melanjutkan untuk mengevaluasi model struktural.
 
-## 8. Kesimpulan
+#### Model Struktural: Efek Langsung (RM2)
 
-Penelitian ini menunjukkan bahwa PjBL efektif meningkatkan kompetensi desain RPP integratif calon guru IPA. Berdasarkan lima rumusan masalah, kesimpulan yang dapat ditarik adalah:
+Setelah mengonfirmasi model pengukuran, kami menguji hubungan struktural untuk menjawab RM2. Tabel 7 menyajikan koefisien jalur, statistik bootstrap, dan ukuran efek untuk seluruh jalur langsung.
 
-**RM1:** Seluruh konstruk (TPACK, STEM, ESD, RPP Integratif) meningkat signifikan dari pretest ke posttest (p < 0,001) dengan ukuran efek besar (Cohen's d > 2,3). Namun, ESD menunjukkan N-Gain terendah (0,376) tanpa kategori high gain.
+**Tabel 7.** Model Struktural — Koefisien Jalur dan Signifikansi
 
-**RM2:** PjBL berpengaruh positif dan signifikan terhadap TPACK (beta = 0,718; p < 0,001), STEM (beta = 0,671; p < 0,001), dan ESD (beta = 0,612; p < 0,001) dengan ukuran efek besar. Pengaruh langsung PjBL terhadap RPP tidak signifikan (beta = 0,040; p = 0,305).
+| Jalur | $\beta$ | $SE$ | $t$ | $p$ | CI 95% | Sig. | $f^2$ |
+|---|---|---|---|---|---|---|---|
+| PjBL $\rightarrow$ TPACK | 0,727 | 0,055 | 13,295 | $< {,}001$ | [0,610; 0,823] | Ya | 1,123 (B) |
+| PjBL $\rightarrow$ STEM | 0,683 | 0,054 | 12,616 | $< {,}001$ | [0,573; 0,782] | Ya | 0,872 (B) |
+| PjBL $\rightarrow$ ESD | 0,617 | 0,065 | 9,496 | $< {,}001$ | [0,485; 0,739] | Ya | 0,614 (B) |
+| PjBL $\rightarrow$ RPP | 0,030 | 0,045 | 0,770 | ,441 | [-0,055; 0,123] | Tidak | 0,007 (N) |
+| TPACK $\rightarrow$ RPP | 0,425 | 0,037 | 11,346 | $< {,}001$ | [0,345; 0,491] | Ya | 2,783 (B) |
+| STEM $\rightarrow$ RPP | 0,484 | 0,037 | 13,116 | $< {,}001$ | [0,412; 0,556] | Ya | 5,444 (B) |
+| ESD $\rightarrow$ RPP | 0,345 | 0,040 | 8,355 | $< {,}001$ | [0,264; 0,423] | Ya | 2,399 (B) |
 
-**RM3:** Urutan responsivitas dimensi terhadap PjBL adalah TPACK > STEM > ESD, berdasarkan koefisien jalur dan ukuran efek.
+*Catatan.* B = Besar, N = Negligible. Bootstrap: 5.000 iterasi, seed = 42.
 
-**RM4:** Ketiga dimensi berkontribusi signifikan terhadap kualitas RPP integratif: STEM (beta = 0,483; f² = 5,785), TPACK (beta = 0,420; f² = 2,987), dan ESD (beta = 0,340; f² = 2,546). Model menjelaskan 97,8% varians RPP dengan relevansi prediktif sangat kuat (Q² = 0,975).
+Sebagaimana ditunjukkan pada Tabel 7, PjBL memberikan efek positif signifikan terhadap ketiga dimensi integrasi: TPACK ($\beta = 0{,}727$, $p < {,}001$, $f^2 = 1{,}123$), STEM ($\beta = 0{,}683$, $p < {,}001$, $f^2 = 0{,}872$), dan ESD ($\beta = 0{,}617$, $p < {,}001$, $f^2 = 0{,}614$). Seluruh ukuran efek besar. Penting dicatat, jalur langsung dari PjBL ke RPP tidak signifikan ($\beta = 0{,}030$, $p = {,}441$), menunjukkan bahwa PjBL tidak langsung mempengaruhi kualitas RPP tetapi bekerja melalui konstruk mediator.
 
-**RM5:** Pola mediasi menunjukkan full mediation secara agregat. Seluruh jalur mediasi spesifik signifikan: STEM (indirect = 0,324), TPACK (0,301), dan ESD (0,208). Total indirect effect = 0,833 (p < 0,001), sementara direct effect tidak signifikan.
+Model menjelaskan 97,7% varians RPP ($R^2 = 0{,}977$), 52,9% TPACK ($R^2 = 0{,}529$), 46,6% STEM ($R^2 = 0{,}466$), dan 38,0% ESD ($R^2 = 0{,}380$).
 
-Dengan demikian, PjBL layak diposisikan sebagai strategi kunci pengembangan kompetensi desain di LPTK. Meskipun seluruh dimensi responsif terhadap PjBL dalam model struktural, capaian pre-post menunjukkan ESD memerlukan scaffolding instruksional tambahan untuk mempercepat pertumbuhannya.
+Relevansi prediktif ($Q^2$) bernilai positif dan substansial untuk seluruh konstruk endogen: RPP (0,974), TPACK (0,503), STEM (0,430), dan ESD (0,355), menunjukkan kapasitas prediktif yang kuat melampaui prediksi rerata sederhana.
+
+#### Analisis Komparatif: Dimensi Dominan (RM3)
+
+Berdasarkan temuan RM2, RM3 menanyakan dimensi integrasi mana yang paling responsif terhadap PjBL. Tabel 8 membandingkan koefisien jalur PjBL ke dimensi, dan Gambar 3 memvisualisasikan hubungan ini.
+
+**Tabel 8.** RM3 — Perbandingan Koefisien Jalur PjBL ke Dimensi
+
+| Rank | Dimensi | $\beta$ | $t$ | $p$ | $f^2$ | Signifikan |
+|---|---|---|---|---|---|---|
+| 1 | TPACK | 0,727 | 13,295 | $< {,}001$ | 1,123 | Ya |
+| 2 | STEM | 0,683 | 12,616 | $< {,}001$ | 0,872 | Ya |
+| 3 | ESD | 0,617 | 9,496 | $< {,}001$ | 0,614 | Ya |
+
+Sebagaimana ditunjukkan pada Tabel 8, TPACK muncul sebagai dimensi paling responsif ($\beta = 0{,}727$, $f^2 = 1{,}123$), diikuti STEM ($\beta = 0{,}683$, $f^2 = 0{,}872$) dan ESD ($\beta = 0{,}617$, $f^2 = 0{,}614$). Seluruh jalur signifikan dengan ukuran efek besar, menghasilkan urutan: TPACK > STEM > ESD.
+
+![Gambar 3. Koefisien Jalur dari PjBL ke Konstruk Mediator](../outputs/rm2_rm5/fig3_sem_rm3_paths.png)
+
+*Gambar 3.* Koefisien jalur dari PjBL ke setiap dimensi integrasi (TPACK, STEM, ESD). Seluruh jalur signifikan ($p < {,}001$) dengan ukuran efek besar. TPACK paling responsif terhadap PjBL ($\beta = 0{,}727$), diikuti STEM ($\beta = 0{,}683$) dan ESD ($\beta = 0{,}617$).
+
+#### Higher-Order Construct: Dimensi yang Berkontribusi terhadap Kualitas RPP (RM4)
+
+Sementara RM3 menguji efek diferensial PjBL terhadap ketiga dimensi, RM4 fokus pada bagaimana dimensi-dimensi ini berkontribusi terhadap kualitas RPP integratif. Gambar 4 mengilustrasikan model struktural lengkap dengan jalur dari PjBL melalui konstruk mediator ke RPP.
+
+![Gambar 4. Prediktor Kualitas RPP Integratif](../outputs/rm2_rm5/fig4_sem_full_model_hoc_proxy.png)
+
+*Gambar 4.* Koefisien jalur dari dimensi integrasi ke kualitas RPP. Ketiga dimensi berkontribusi signifikan: STEM ($\beta = 0{,}484$), TPACK ($\beta = 0{,}425$), dan ESD ($\beta = 0{,}345$). Jalur langsung dari PjBL ke RPP tidak signifikan ($\beta = 0{,}030$, garis putus-putus).
+
+Sebagaimana ditunjukkan pada Gambar 4 dan Tabel 7, ketiga dimensi integrasi berkontribusi signifikan dan substansial terhadap kualitas RPP integratif. STEM adalah kontributor terkuat ($\beta = 0{,}484$), diikuti TPACK ($\beta = 0{,}425$) dan ESD ($\beta = 0{,}345$). Nilai $f^2$ yang konsisten besar (seluruh $> 2{,}3$) menunjukkan bahwa setiap dimensi memberikan kontribusi bermakna dan non-redundan terhadap kualitas RPP keseluruhan.
+
+#### Analisis Mediasi (RM5)
+
+Terakhir, RM5 menguji apakah TPACK, STEM, dan ESD memediasi hubungan antara PjBL dan kualitas RPP. Tabel 9 menyajikan hasil analisis mediasi, dan Gambar 5 memvisualisasikan efek tidak langsung spesifik.
+
+**Tabel 9.** Analisis Mediasi — Efek Tidak Langsung
+
+| Jalur Tidak Langsung | $\beta_{\text{indirect}}$ | $SE$ | $t$ | $p$ | CI 95% | VAF | Sobel $z$ | Sobel $p$ |
+|---|---|---|---|---|---|---|---|---|
+| PjBL $\rightarrow$ TPACK $\rightarrow$ RPP | 0,309 | 0,035 | 8,725 | $< {,}001$ | [0,239; 0,375] | 35,0% | 8,686 | $< {,}001$ |
+| PjBL $\rightarrow$ STEM $\rightarrow$ RPP | 0,330 | 0,033 | 10,039 | $< {,}001$ | [0,271; 0,401] | 37,4% | 9,052 | $< {,}001$ |
+| PjBL $\rightarrow$ ESD $\rightarrow$ RPP | 0,213 | 0,031 | 6,685 | $< {,}001$ | [0,151; 0,275] | 24,1% | 6,335 | $< {,}001$ |
+| Total indirect | 0,852 | 0,040 | 21,016 | $< {,}001$ | [0,769; 0,928] | — | — | — |
+| Langsung (PjBL $\rightarrow$ RPP) | 0,030 | 0,045 | 0,770 | ,441 | [-0,055; 0,123] | — | — | — |
+| Total effect | 0,882 | 0,021 | 42,952 | $< {,}001$ | [0,838; 0,917] | — | — | — |
+
+Sebagaimana ditunjukkan pada Tabel 9, ketiga jalur tidak langsung signifikan secara statistik berdasarkan confidence interval bootstrap:
+
+- **PjBL $\rightarrow$ STEM $\rightarrow$ RPP** adalah jalur mediasi terkuat (indirect $\beta = 0{,}330$, $p < {,}001$, CI 95% [0,271; 0,401]). VAF 37,4% menunjukkan mediasi parsial, dan uji Sobel mengonfirmasi signifikansi ($z = 9{,}052$, $p < {,}001$).
+- **PjBL $\rightarrow$ TPACK $\rightarrow$ RPP** menghasilkan efek tidak langsung signifikan (indirect $\beta = 0{,}309$, $p < {,}001$, CI 95% [0,239; 0,375]). VAF 35,0% konsisten dengan mediasi parsial.
+- **PjBL $\rightarrow$ ESD $\rightarrow$ RPP** juga signifikan (indirect $\beta = 0{,}213$, $p < {,}001$, CI 95% [0,151; 0,275]). VAF 24,1% menunjukkan mediasi parsial.
+
+![Gambar 5. Efek Tidak Langsung Spesifik melalui Konstruk Mediator](../outputs/rm2_rm5/fig5_sem_mediation_paths.png)
+
+*Gambar 5.* Efek tidak langsung spesifik PjBL terhadap RPP melalui setiap konstruk mediator. STEM memediasi porsi terbesar ($\beta_{\text{indirect}} = 0{,}330$), diikuti TPACK ($\beta_{\text{indirect}} = 0{,}309$) dan ESD ($\beta_{\text{indirect}} = 0{,}213$). Seluruh jalur tidak langsung signifikan ($p < {,}001$).
+
+Total indirect effect signifikan ($\beta = 0{,}852$, $p < {,}001$), sementara direct effect PjBL terhadap RPP tidak signifikan ($\beta = 0{,}030$, $p = {,}441$). Pola ini konsisten dengan full mediation secara agregat: PjBL mempengaruhi kualitas RPP integratif bukan secara langsung, tetapi melalui peningkatan ketiga dimensi integrasi. Total effect PjBL terhadap RPP signifikan ($\beta = 0{,}882$, $p < {,}001$), mengonfirmasi bahwa pengaruh keseluruhan PjBL terhadap kualitas RPP substansial dan bekerja melalui dimensi mediator.
+
+---
+
+## 5. Diskusi
+
+Penelitian ini meneliti pengaruh Project-Based Learning terhadap kompetensi perencanaan pembelajaran integratif calon guru IPA, yang dioperasionalisasikan melalui tiga dimensi integrasi—TPACK, STEM, dan ESD—menggunakan kombinasi perbandingan pre-post dan analisis PLS-SEM. Temuan menghasilkan bukti yang menjanjikan sekaligus peringatan penting yang perlu diinterpretasikan secara hati-hati.
+
+### 5.1 Efektivitas PjBL dalam Meningkatkan Kompetensi Integratif (RQ1)
+
+Analisis pre-post mengungkapkan peningkatan signifikan secara statistik pada seluruh empat konstruk, dengan effect sizes yang seragam besar (Cohen's $d > 2{,}3$). Hasil ini memberikan bukti kuat bahwa kompetensi perencanaan pembelajaran integratif partisipan secara substansial lebih tinggi setelah intervensi PjBL dibandingkan sebelumnya. Besaran peningkatan konsisten dengan temuan Dewi et al. (2022) bahwa model scaffolding PjBL menghasilkan peningkatan bermakna dalam TPACK dan kemampuan desain pembelajaran calon guru, dan memperluas bukti ini dengan mendemonstrasikan bahwa peningkatan tidak terbatas pada integrasi teknologi tetapi meluas ke dimensi STEM dan ESD juga.
+
+Analisis N-Gain, bagaimanapun, mengungkapkan pola responsivitas diferensial yang penting. TPACK ($M = 0{,}596$) dan STEM ($M = 0{,}574$) mencapai normalized gains tertinggi, keduanya mendekati batas atas kategori Sedang. RPP Integratif ($M = 0{,}513$) berada di rentang tengah Sedang. ESD menunjukkan N-Gain terendah ($M = 0{,}376$), hampir tidak melewati ambang batas Sedang, dengan tidak ada partisipan yang mencapai gain Tinggi dan 28,4% tetap berada di kategori Rendah.
+
+Pola diferensial ini bermakna secara edukatif. Peningkatan yang relatif kuat pada TPACK dan STEM kemungkinan mencerminkan keselarasan natural antara elemen struktural PjBL dan kompetensi-kompetensi ini. Penekanan PjBL pada penciptaan artefak secara inheren memerlukan integrasi teknologi (mengaktivasi TPACK), dan pertanyaan pendorong biasanya mencakup berbagai disiplin STEM, memfasilitasi pemikiran interdisipliner. Sebaliknya, kompetensi ESD—khususnya kapasitas untuk menanamkan perspektif keberlanjutan, investigasi lingkungan berbasis inkuiri, dan penalaran evaluatif tentang isu sosio-ilmiah—memerlukan bentuk reorientasi pedagogis yang mungkin tidak muncul secara organik dari pengalaman PjBL umum. Purwianingsih et al. (2022) mengamati pola serupa, mencatat bahwa mengintegrasikan ESD ke dalam TPACK calon guru memerlukan program terstruktur dan terdedikasi, bukan eksposur insidental. Temuan ini menunjukkan bahwa meskipun PjBL menyediakan konteks yang subur untuk pengembangan ESD, scaffolding eksplisit—seperti pertanyaan pendorong berfokus keberlanjutan, refleksi terstruktur tentang koneksi SDG, atau kriteria desain ESD terdedikasi—mungkin diperlukan untuk mendorong peningkatan ESD melampaui ambang batas Sedang.
+
+Perlu dicatat bahwa ketiadaan kelompok kontrol menghalangi atribusi peningkatan yang diamati semata-mata pada intervensi PjBL. Efek maturasi, kursus bersamaan, dan efek pengujian (sensitisasi pretest) tetap menjadi penjelasan alternatif yang masuk akal. Effect sizes yang besar sedikit memitigasi kekhawatiran ini—peningkatan dengan besaran ini tidak mungkin dihasilkan dari maturasi saja selama satu semester—tetapi klaim kausal harus tetap tentatif menunggu replikasi dengan desain kuasi-eksperimental.
+
+### 5.2 PjBL sebagai Penggerak Dimensi Integrasi (RQ2)
+
+Setelah menetapkan efektivitas keseluruhan intervensi, kita sekarang beralih ke hubungan struktural yang menjelaskan bagaimana PjBL mempengaruhi kompetensi-kompetensi ini. Analisis PLS-SEM mengungkapkan bahwa PjBL memberikan efek positif yang signifikan secara statistik dan kuat pada ketiga dimensi integrasi: TPACK ($\beta = 0{,}727$, $p < 0{,}001$), STEM ($\beta = 0{,}683$, $p < 0{,}001$), dan ESD ($\beta = 0{,}617$, $p < 0{,}001$). Seluruh effect sizes besar ($f^2 > 0{,}35$), menunjukkan signifikansi praktis substansial. Jalur langsung dari PjBL ke RPP tidak signifikan ($\beta = 0{,}030$, $p = 0{,}441$). Temuan ini sepenuhnya mendukung H1: PjBL secara signifikan mempengaruhi ketiga dimensi integrasi.
+
+Jalur PjBL $\rightarrow$ TPACK yang kuat ($\beta = 0{,}727$) koheren secara teoretis. Elemen-elemen inti PjBL—pertanyaan pendorong autentik, investigasi kolaboratif, dan penciptaan artefak—secara natural mengharuskan calon guru untuk mempertimbangkan bagaimana teknologi dapat mendukung tujuan pedagogis dan penyampaian konten. Temuan ini memperluas studi SEM Mansour et al. (2024) di Qatar, yang menemukan hubungan signifikan antara pendekatan pedagogis dan integrasi TPACK. Effect size yang besar ($f^2 = 1{,}123$) menunjukkan bahwa PjBL sangat efektif dalam mengembangkan kompetensi integrasi teknologi.
+
+Demikian pula, jalur PjBL $\rightarrow$ STEM yang signifikan ($\beta = 0{,}683$, $f^2 = 0{,}872$) mengonfirmasi bahwa sifat interdisipliner PjBL mengaktivasi penalaran STEM. Ketika merancang rencana pembelajaran melalui proses PjBL, partisipan harus mempertimbangkan bagaimana konten sains terhubung dengan tantangan desain teknik, bagaimana teknologi mendukung pengumpulan dan analisis data, dan bagaimana penalaran matematis menginformasikan pemecahan masalah. Keselarasan antara tuntutan struktural PjBL dan integrasi STEM menjelaskan hubungan yang kuat.
+
+Jalur PjBL $\rightarrow$ ESD yang signifikan ($\beta = 0{,}617$, $f^2 = 0{,}614$) adalah temuan penting yang menyimpang dari pola N-Gain. Meskipun ESD menunjukkan N-Gain terlemah dalam analisis pre-post, model struktural mengungkapkan bahwa variasi dalam kualitas implementasi PjBL secara signifikan memprediksi variasi dalam kompetensi ESD pada data posttest. Perbedaan yang tampak ini dapat direkonsiliasi dengan mengenali bahwa analisis pre-post mengukur peningkatan absolut dari baseline yang lebih rendah, sementara SEM meneliti hubungan struktural pada posttest. Temuan menunjukkan bahwa PjBL memang mempengaruhi pengembangan ESD secara struktural, tetapi peningkatan absolut mungkin dibatasi oleh titik awal yang lebih rendah dan jarak pedagogis yang lebih besar antara struktur umum PjBL dan kompetensi spesifik ESD.
+
+Secara keseluruhan, PjBL menjelaskan varians substansial dalam ketiga dimensi integrasi: 52,9% dalam TPACK, 46,6% dalam STEM, dan 38,0% dalam ESD. Nilai $R^2$ moderat-ke-substansial ini menunjukkan bahwa PjBL, sebagai prediktor eksogen tunggal, menangkap proporsi bermakna dari faktor-faktor yang mempengaruhi kompetensi integrasi. Varians yang tidak terjelaskan yang tersisa kemungkinan dapat diatribusikan pada faktor-faktor lain—seperti pengetahuan konten sebelumnya, literasi digital, efikasi diri mengajar, keyakinan tentang keberlanjutan, dan keterampilan metakognitif—yang tidak dimasukkan dalam model.
+
+### 5.3 Dimensi Integrasi yang Paling Responsif (RQ3)
+
+Membangun pada temuan RQ2 bahwa ketiga dimensi secara signifikan dipengaruhi oleh PjBL, RQ3 bertanya dimensi mana yang paling responsif. Analisis komparatif menempatkan TPACK sebagai dimensi yang paling kuat dipengaruhi ($\beta = 0{,}727$, $f^2 = 1{,}123$), diikuti oleh STEM ($\beta = 0{,}683$, $f^2 = 0{,}872$) dan ESD ($\beta = 0{,}617$, $f^2 = 0{,}614$). Urutan ini (TPACK > STEM > ESD) didasarkan pada koefisien jalur dan effect sizes dari model struktural. Ketiga jalur signifikan dengan effect sizes besar, menunjukkan bahwa PjBL adalah intervensi efektif untuk mengembangkan ketiga dimensi, dengan TPACK menunjukkan hubungan struktural terkuat.
+
+Signifikansi praktis dari urutan ini terletak pada implikasi kurikulernya. Temuan bahwa integrasi TPACK adalah dimensi yang paling kuat dipengaruhi oleh PjBL menunjukkan bahwa fokus PjBL yang kaya teknologi dan penciptaan artefak secara natural mengaktivasi technological pedagogical content knowledge. Program pendidikan guru dapat memanfaatkan PjBL sebagai wahana utama untuk pengembangan kompetensi TPACK sambil merancang intervensi suplemental untuk dimensi yang memerlukan dukungan tambahan.
+
+### 5.4 Dimensi sebagai Konstituen Kualitas Rencana Pembelajaran Integratif (RQ4)
+
+Sementara RQ3 meneliti dimensi mana yang paling responsif terhadap PjBL, RQ4 beralih ke sisi outcome model: bagaimana dimensi-dimensi ini berkontribusi terhadap kualitas rencana pembelajaran integratif? Ketiga dimensi integrasi berkontribusi secara signifikan dan substansial terhadap kualitas rencana pembelajaran integratif, dengan effect sizes yang konsisten besar: STEM ($\beta = 0{,}484$, $f^2 = 5{,}444$), TPACK ($\beta = 0{,}425$, $f^2 = 2{,}783$), dan ESD ($\beta = 0{,}345$, $f^2 = 2{,}399$). Temuan ini mendukung H2 dan memvalidasi konseptualisasi perencanaan pembelajaran integratif sebagai kompetensi tingkat tinggi yang dikonstituasi oleh tiga dimensi yang berbeda tetapi saling melengkapi.
+
+Nilai $f^2$ yang besar (seluruhnya melebihi 2,5) menunjukkan bahwa setiap dimensi membuat kontribusi substansial dan non-redundan terhadap kualitas rencana pembelajaran. Ini signifikan secara teoretis untuk kerangka Teacher Design Capacity (Brown, 2009; McKenney et al., 2015): ini menunjukkan bahwa kompetensi perencanaan pembelajaran integratif tidak dapat direduksi menjadi profisiensi dalam satu dimensi tunggal tetapi memerlukan pengembangan terkoordinasi dari integrasi teknologi, penalaran interdisipliner, dan perspektif keberlanjutan. Program pendidikan guru yang hanya menekankan satu dimensi—misalnya, berfokus eksklusif pada TPACK—akan tidak memadai untuk mengembangkan spektrum penuh kompetensi desain integratif.
+
+Peringatan metodologis penting berlaku untuk temuan ini. $R^2$ untuk RPP adalah 0,977, nilai yang tidak biasa tinggi yang mencerminkan sifat komposisional konstruk: RPPInt_total_post dihitung sebagai mean dari seluruh skor indikator TPACK, STEM, dan ESD, menjadikan ketiga dimensi sebagai prediktor hampir sempurna secara konstruksi. Akibatnya, nilai $f^2$ yang besar dan $R^2$ yang tinggi tidak semata-mata mencerminkan hubungan yang ditemukan secara empiris tetapi sebagian menangkap keniscayaan matematis. Ini tidak membatalkan wawasan konseptual—bahwa perencanaan pembelajaran integratif terdiri dari berbagai dimensi—tetapi besaran koefisien jalur harus diinterpretasikan sebagai mencerminkan operasionalisasi konstruk, bukan murni besaran efek empiris.
+
+### 5.5 Peran Mediasi Dimensi Integrasi (RQ5)
+
+Setelah menetapkan bahwa PjBL mempengaruhi ketiga dimensi (RQ2) dan bahwa ketiga dimensi berkontribusi terhadap kualitas rencana pembelajaran (RQ4), RQ5 meneliti apakah dimensi-dimensi ini memediasi hubungan PjBL-ke-RPP. Analisis mediasi mengungkapkan pola mediasi penuh secara agregat: efek tidak langsung total signifikan ($\beta = 0{,}852$, $p < 0{,}001$), sementara efek langsung PjBL terhadap RPP tidak signifikan ($\beta = 0{,}030$, $p = 0{,}441$). Temuan ini mendukung H3 dan menawarkan wawasan teoretis kunci: PjBL tidak mempengaruhi kualitas rencana pembelajaran integratif secara langsung tetapi beroperasi melalui peningkatan ketiga kompetensi integrasi.
+
+Secara kritis, ketiga jalur mediasi signifikan secara statistik:
+
+- **STEM** adalah mediator terkuat ($\beta$ tidak langsung $= 0{,}330$, VAF $= 37{,}4\%$), mengonfirmasi bahwa pengaruh PjBL terhadap kualitas rencana pembelajaran beroperasi secara substansial melalui pengembangan kompetensi integrasi STEM.
+- **TPACK** adalah mediator terkuat kedua ($\beta$ tidak langsung $= 0{,}309$, VAF $= 35{,}0\%$), mendemonstrasikan bahwa integrasi teknologi berfungsi sebagai saluran signifikan melalui mana PjBL meningkatkan perencanaan pembelajaran.
+- **ESD** juga merupakan mediator signifikan ($\beta$ tidak langsung $= 0{,}213$, VAF $= 24{,}1\%$), menunjukkan bahwa meskipun ESD menunjukkan peningkatan absolut terlemah dalam analisis pre-post, ia tetap berfungsi sebagai jalur mediasi signifikan dalam model struktural.
+
+Temuan tiga jalur mediasi signifikan ini melampaui penelitian sebelumnya yang menemukan pola mediasi campuran atau parsial. Pola mediasi penuh menunjukkan bahwa PjBL bekerja *melalui* pengembangan keterampilan spesifik, bukan melalui mekanisme difus dan tidak spesifik (Hair et al., 2022). Jalur mediasi ESD yang signifikan sangat penting dicatat: meskipun ESD memerlukan scaffolding tambahan untuk memaksimalkan peningkatan absolut (seperti ditunjukkan oleh analisis N-Gain), model struktural mengonfirmasi bahwa pengembangan kompetensi ESD adalah integral terhadap mekanisme melalui mana PjBL mempengaruhi kualitas rencana pembelajaran.
+
+### 5.6 Implikasi Teoretis
+
+Temuan-temuan sebelumnya memiliki beberapa implikasi untuk teori. Pertama, penelitian ini menyediakan uji empiris pertama dari model struktural yang memposisikan TPACK, STEM, dan ESD sebagai dimensi mediasi simultan antara PjBL dan kualitas rencana pembelajaran integratif. Pola mediasi penuh—dengan ketiga jalur signifikan—menunjukkan bahwa model teoretis kapasitas desain guru (Brown, 2009) harus menspesifikasikan jalur-jalur komposisional melalui mana intervensi mempengaruhi kompetensi desain, bukan memperlakukan kapasitas desain sebagai outcome uniter dari pengalaman pedagogis.
+
+Kedua, penelitian mengungkapkan bahwa ketiga dimensi integrasi secara signifikan dipengaruhi oleh PjBL, menentang asumsi bahwa beberapa dimensi (misalnya, ESD) tidak amenable terhadap pengembangan berbasis PjBL. Koefisien jalur yang kuat (seluruh $\beta > 0{,}6$) dan effect sizes yang besar ($f^2 > 0{,}5$) mendemonstrasikan bahwa PjBL dapat berfungsi sebagai intervensi komprehensif untuk mengembangkan berbagai kompetensi integrasi secara simultan.
+
+Ketiga, penelitian memvalidasi operasionalisasi perencanaan pembelajaran integratif sebagai konstruk yang dikonstituasi oleh—bukan sekadar berkorelasi dengan—kompetensi TPACK, STEM, dan ESD. Signifikansi konsisten dan effect sizes besar dari ketiga jalur dimensional menyediakan landasan empiris untuk konseptualisasi konstruk tingkat tinggi.
+
+### 5.7 Implikasi Praktis
+
+Di luar kontribusi teoretis, temuan menawarkan panduan yang dapat ditindaklanjuti untuk program pendidikan guru (Lembaga Pendidikan Tenaga Kependidikan, LPTK). Pertama, PjBL harus diadopsi sebagai strategi pedagogis inti dalam mata kuliah persiapan guru IPA, mengingat kapasitasnya yang terdemonstrasikan untuk meningkatkan ketiga kompetensi integrasi dengan effect sizes besar. Hubungan struktural yang kuat ($\beta > 0{,}6$ untuk seluruh dimensi) mengonfirmasi bahwa PjBL adalah wahana efektif untuk mengembangkan kompetensi TPACK, STEM, dan ESD.
+
+Kedua, meskipun PjBL efektif untuk seluruh dimensi, analisis N-Gain mengungkapkan bahwa ESD menunjukkan peningkatan absolut terlemah. Ini menunjukkan bahwa scaffolding ESD eksplisit harus melengkapi pengalaman PjBL untuk memaksimalkan pengembangan ESD. Scaffolding tersebut mungkin mencakup pertanyaan pendorong berfokus keberlanjutan, refleksi terstruktur tentang koneksi SDG, atau kriteria desain ESD terdedikasi dalam proses PjBL.
+
+Ketiga, pendekatan asesmen berbasis rubrik yang digunakan dalam penelitian ini menawarkan alat praktis untuk mengevaluasi kualitas rencana pembelajaran integratif calon guru. Rubrik 14-indikator yang mencakup TPACK (7 item), STEM (4 item), dan ESD (3 item) dapat diadopsi atau diadaptasi oleh institusi pendidikan guru yang ingin menilai kompetensi desain multi-dimensional melalui tugas kinerja autentik, bukan ukuran laporan diri.
+
+Keempat, temuan mediasi menunjukkan bahwa ketiga dimensi integrasi adalah saluran yang diperlukan melalui mana PjBL mempengaruhi kualitas rencana pembelajaran. Pendidik guru harus memastikan bahwa aktivitas PjBL menangani ketiga dimensi, bukan berfokus secara sempit pada satu atau dua saja.
+
+### 5.8 Keterbatasan
+
+Beberapa keterbatasan membatasi interpretasi dan generalisabilitas temuan ini.
+
+*Keterbatasan desain.* Desain pra-eksperimental satu kelompok pretest-posttest tidak memiliki kelompok kontrol, menghalangi atribusi kausal yang tidak ambigu. Peningkatan yang diamati mungkin sebagian dijelaskan oleh maturasi, kursus bersamaan, atau efek pengujian. Studi masa depan harus menggunakan desain kuasi-eksperimental dengan kelompok pembanding.
+
+*Kualitas pengukuran.* Konstruk TPACK (AVE $= 0{,}418$) dan konstruk STEM (AVE $= 0{,}480$) berada di bawah ambang batas AVE 0,50, meskipun reliabilitas komposit mereka dapat diterima (CR $> 0{,}80$). Konstruk PjBL menunjukkan kualitas pengukuran yang baik (AVE $= 0{,}687$, CR $= 0{,}917$, $\alpha = 0{,}886$) dengan seluruh indikator (PjBL01-05). Indikator dengan loadings antara 0,40 dan 0,70 dipertahankan mengikuti rekomendasi Hair et al. (2022) untuk penelitian eksploratori.
+
+*Operasionalisasi konstruk.* Konstruk RPP Integratif dioperasionalisasikan sebagai indikator tunggal (RPPInt_total_post), yang merupakan mean aritmatika dari seluruh skor indikator TPACK, STEM, dan ESD. Operasionalisasi komposisional ini menghasilkan $R^2$ yang secara mekanistis tinggi (0,977) untuk konstruk RPP. Operasionalisasi alternatif—seperti penilaian holistik independen terhadap kualitas rencana pembelajaran oleh evaluator eksternal—akan menyediakan uji model yang lebih ketat.
+
+*Sampel dan generalisabilitas.* Seluruh partisipan diambil dari satu institusi pendidikan guru, membatasi generalisabilitas ke konteks institusional dan budaya lain. Ukuran sampel ($N = 95$), meskipun melebihi persyaratan minimum untuk PLS-SEM, moderat untuk kompleksitas model. Replikasi lintas berbagai institusi dan dengan sampel lebih besar akan memperkuat basis bukti.
+
+*Cakupan intervensi.* Meskipun PjBL secara signifikan mempengaruhi ketiga dimensi, analisis N-Gain menunjukkan bahwa peningkatan ESD lebih lemah secara absolut. Intervensi yang lebih lama dengan scaffolding ESD eksplisit mungkin menghasilkan peningkatan absolut yang lebih kuat dalam kompetensi ESD.
+
+Meskipun ada keterbatasan ini, penelitian menyediakan uji yang koheren dan dilandasi empiris dari model integratif. Konvergensi antara temuan pre-post (RQ1) dan temuan SEM (RQ2--RQ5) memperkuat kepercayaan pada pola keseluruhan hasil, khususnya temuan bahwa PjBL secara signifikan mempengaruhi ketiga dimensi integrasi melalui mekanisme mediasi penuh.
+
+---
+
+## 6. Kesimpulan
+
+Penelitian ini menginvestigasi bagaimana Project-Based Learning mempengaruhi kompetensi perencanaan pembelajaran integratif calon guru IPA, yang dikonseptualisasikan sebagai integrasi simultan dimensi TPACK, STEM, dan ESD dalam desain rencana pembelajaran. Menggunakan desain pra-eksperimental satu kelompok pretest-posttest dengan 95 calon guru IPA dan kombinasi uji berpasangan, analisis N-Gain, dan PLS-SEM dengan 5.000 iterasi bootstrap, penelitian ini menjawab lima pertanyaan penelitian dan menguji tiga hipotesis. Temuan kunci diringkas di bawah ini.
+
+**RQ1:** Keempat konstruk—TPACK, STEM, ESD, dan kualitas rencana pembelajaran integratif—menunjukkan peningkatan signifikan secara statistik setelah intervensi PjBL, dengan effect sizes yang seragam besar (Cohen's $d > 2{,}3$) dan nilai N-Gain kategori Sedang. TPACK dan STEM adalah konstruk yang paling responsif, sementara ESD menunjukkan N-Gain terlemah, dengan tidak ada partisipan yang mencapai N-Gain Tinggi dan 28,4% tetap berada di kategori Rendah.
+
+**RQ2:** Membangun pada peningkatan pre-post ini, analisis PLS-SEM mengungkapkan mekanisme struktural yang mendasari perubahan-perubahan ini. PjBL secara signifikan memprediksi ketiga dimensi integrasi: TPACK ($\beta = 0{,}727$, $p < 0{,}001$), STEM ($\beta = 0{,}683$, $p < 0{,}001$), dan ESD ($\beta = 0{,}617$, $p < 0{,}001$), seluruhnya dengan effect sizes besar ($f^2 > 0{,}5$). H1 sepenuhnya didukung.
+
+**RQ3:** Di antara ketiga dimensi, TPACK adalah yang paling kuat dipengaruhi, diikuti oleh STEM dan ESD. Urutan (TPACK > STEM > ESD) didasarkan pada koefisien jalur dan effect sizes, menunjukkan bahwa fokus PjBL yang kaya teknologi dan penciptaan artefak paling natural mengaktivasi technological pedagogical content knowledge.
+
+**RQ4:** Beralih ke sisi outcome model, ketiga dimensi integrasi berkontribusi secara signifikan terhadap kualitas rencana pembelajaran integratif dengan effect sizes besar: STEM ($\beta = 0{,}483$, $f^2 = 5{,}785$), TPACK ($\beta = 0{,}420$, $f^2 = 2{,}987$), dan ESD ($\beta = 0{,}340$, $f^2 = 2{,}546$). H2 didukung, memvalidasi konseptualisasi konstruk tingkat tinggi dari perencanaan pembelajaran integratif.
+
+**RQ5:** Akhirnya, pola mediasi penuh diamati secara agregat: PjBL mempengaruhi kualitas rencana pembelajaran tidak secara langsung tetapi melalui peningkatan ketiga kompetensi integrasi. Ketiga jalur mediasi signifikan: STEM ($\beta$ tidak langsung $= 0{,}330$, VAF $= 37{,}4\%$), TPACK ($\beta$ tidak langsung $= 0{,}309$, VAF $= 35{,}0\%$), dan ESD ($\beta$ tidak langsung $= 0{,}213$, VAF $= 24{,}1\%$). Efek tidak langsung total substansial ($\beta = 0{,}852$, $p < 0{,}001$), sementara efek langsung tidak signifikan. H3 sepenuhnya didukung.
+
+### Kontribusi
+
+Kontribusi utama penelitian ini terletak pada penyediaan uji empiris pertama dari model struktural yang secara simultan memposisikan TPACK, STEM, dan ESD sebagai dimensi mediasi antara PjBL dan kualitas rencana pembelajaran integratif. Temuan bahwa ketiga jalur berfungsi sebagai saluran mediasi signifikan memajukan kerangka Teacher Design Capacity dengan menspesifikasikan jalur-jalur komposisional melalui mana intervensi pedagogis diterjemahkan menjadi kompetensi desain. Berbeda dengan penelitian sebelumnya yang menunjukkan bahwa beberapa dimensi (misalnya, ESD) mungkin tidak amenable terhadap pengembangan berbasis PjBL, penelitian ini mendemonstrasikan bahwa PjBL secara signifikan mempengaruhi ketiga dimensi dengan effect sizes besar, meskipun analisis N-Gain mengungkapkan bahwa ESD memerlukan scaffolding tambahan untuk memaksimalkan peningkatan absolut.
+
+### Arah Masa Depan
+
+Penelitian masa depan harus mengatasi keterbatasan penelitian ini melalui beberapa perbaikan metodologis. Pertama, desain kuasi-eksperimental dengan kelompok kontrol akan memungkinkan inferensi kausal yang lebih kuat. Kedua, replikasi multi-situs lintas konteks institusional dan budaya yang beragam akan meningkatkan generalisabilitas. Ketiga, durasi intervensi yang diperpanjang dengan scaffolding ESD terdedikasi—seperti pertanyaan pendorong berfokus keberlanjutan dan refleksi SDG terstruktur—mungkin menghasilkan peningkatan absolut yang lebih kuat dalam kompetensi ESD.
+
+Selain itu, studi metode campuran yang menggabungkan data kualitatif—seperti wawancara dan observasi kelas—akan menyediakan wawasan lebih kaya ke dalam mekanisme melalui mana PjBL membentuk pemikiran desain integratif. Studi longitudinal yang melacak retensi kompetensi integratif melampaui periode intervensi akan lebih memperkuat basis bukti untuk peran PjBL dalam persiapan calon guru IPA.
+
+Sebagai kesimpulan, penelitian ini menyediakan bukti robust bahwa Project-Based Learning adalah intervensi efektif untuk mengembangkan kompetensi perencanaan pembelajaran integratif calon guru IPA. Pola mediasi penuh—yang beroperasi melalui jalur TPACK, STEM, dan ESD—menawarkan baik wawasan teoretis tentang bagaimana intervensi pedagogis diterjemahkan menjadi kompetensi desain maupun panduan praktis untuk program pendidikan guru yang berupaya membudayakan keterampilan integrasi multi-dimensional pada calon guru IPA masa depan.
+
+---
 
 ## Daftar Pustaka
 
