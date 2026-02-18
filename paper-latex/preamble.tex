@@ -1,0 +1,55 @@
+% Core
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+
+% Geometry approximated from elsevier_smart_health_template.docx
+\usepackage[a4paper,left=0.53in,right=0.53in,top=1.00in,bottom=0.58in]{geometry}
+
+% Math and symbols
+\usepackage{amsmath,amssymb,amsthm}
+
+% Tables and figures
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{siunitx}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Lists and spacing
+\usepackage{enumitem}
+\setlist{nosep}
+
+% Links
+\usepackage[hidelinks]{hyperref}
+
+% Body size close to Word template compact look
+\AtBeginDocument{\fontsize{9pt}{13pt}\selectfont}
+
+% Paragraph spacing similar to compact journal style
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.25em}
+
+% Table and caption tuning
+\captionsetup{font=small,labelfont=bf}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+
+% Pandoc table helpers
+\newcounter{none}
+\providecommand{\real}[1]{#1}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Number formatting helper (for statistics tables)
+\sisetup{
+  round-mode=places,
+  round-precision=3,
+  detect-weight=true,
+  detect-family=true,
+  group-separator={,}
+}

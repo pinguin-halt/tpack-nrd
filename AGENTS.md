@@ -214,7 +214,7 @@ Jika muncul kemudian, perlakukan sebagai kebijakan lokal prioritas tinggi.
 
 ## 14) Status Proyek Terkini (Update)
 
-Status saat ini: **analisis RM1-RM5 selesai**, **draft paper bilingual (EN+ID) sudah terbentuk**, **audit data selesai**, **formatting LaTeX selesai**.
+Status saat ini: **analisis RM1-RM5 selesai**, **draft paper bilingual (EN+ID) sudah terbentuk**, **audit data selesai**, **formatting LaTeX selesai**, **manuskrip final DOCX (manual Mendeley) sudah diparaphrase ke English copy**.
 
 ### Fase yang Sudah Selesai
 
@@ -227,6 +227,8 @@ Status saat ini: **analisis RM1-RM5 selesai**, **draft paper bilingual (EN+ID) s
 7. **Audit konsistensi data RM2-RM5** — 6 kelompok tabel, 13 dataset CSV, seluruh prose, zero discrepancies.
 8. **Perbaikan gap Q²** — Nilai Q² (predictive relevance) sudah ada di narasi EN dan ID.
 9. **Submission checklist** — `SUBMISSION_CHECKLIST.md` sudah dibuat.
+10. **Parafrase English untuk naskah final DOCX** — copy aman dibuat di `Manuscript Novi Ratna Dewi_en.docx` tanpa regenerasi dari nol (metadata Mendeley dipertahankan).
+11. **Penjagaan style jurnal asli** — `Manuscript Novi Ratna Dewi_en.docx` mengikuti style/format template dari file sumber final (manual Mendeley).
 
 ### Artefak Utama
 
@@ -247,6 +249,29 @@ Status saat ini: **analisis RM1-RM5 selesai**, **draft paper bilingual (EN+ID) s
   - `paper/word_pipeline/docx/paper_scopus.docx`
   - `paper/word_pipeline/docx/paper_scopus_id.docx`
   - `paper/word_pipeline/docx/paper_full_id_scopus_template.docx`
+- Versi Word final berbasis manual Mendeley (aktif):
+  - `Manuscript Novi Ratna Dewi.docx` (sumber final user)
+  - `Manuscript Novi Ratna Dewi_en.docx` (copy hasil paraphrase English dengan style mengikuti dokumen sumber)
+- Script utilitas DOCX untuk reuse (jangan dihapus kecuali diminta):
+  - `outputs/docx_work/paraphrase_abstract_keywords_en.py`
+  - `outputs/docx_work/paraphrase_intro_lit_to_en.py`
+  - `outputs/docx_work/paraphrase_methods_results_discussion_conclusion.py`
+  - `outputs/docx_work/normalize_table_labels_en.py`
+  - `outputs/docx_work/standardize_font_size_docx.py`
+  - `outputs/docx_work/restore_format_from_source_docx.py`
+  - `outputs/docx_work/run_docx_translation_pipeline.py`
+
+Pipeline reuse cepat (disarankan):
+
+```bash
+conda run -n tpack-research python outputs/docx_work/run_docx_translation_pipeline.py \
+  --source "Manuscript Novi Ratna Dewi.docx" \
+  --target "Manuscript Novi Ratna Dewi_en.docx"
+```
+
+Catatan:
+- Pipeline ini kini memakai translasi otomatis penuh dokumen via `outputs/docx_work/translate_docx_full_id_to_en.py` (bukan hardcoded index paragraf).
+- `--standardize-font` bersifat opsional dan default **off** agar style template sumber tetap terjaga.
 
 ### Konvensi Penting
 
@@ -255,6 +280,7 @@ Status saat ini: **analisis RM1-RM5 selesai**, **draft paper bilingual (EN+ID) s
 - **Path gambar di source files:** `../../outputs/...`; merger auto-konversi ke `../outputs/...`.
 - **Tabel numbering:** EN menggunakan Table 1–10, ID menggunakan Tabel 1–9 (ID menghilangkan tabel deskriptif indikator).
 - **CSV naming caveat:** `sem_table9_r2.csv` berisi perbandingan RM3, BUKAN data R². Data R² ada di `sem_table10_hoc.csv` / `sem_r2.csv`.
+- **Workflow DOCX manual-Mendeley:** untuk naskah final user, edit langsung file `.docx` copy (bukan regenerate penuh dari markdown) agar field sitasi/bibliografi Mendeley tetap aman.
 
 ## 15) Prioritas Kerja Baru (Submission-Readiness)
 

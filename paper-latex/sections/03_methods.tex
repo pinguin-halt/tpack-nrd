@@ -1,0 +1,183 @@
+\section{Methods}\label{methods}
+
+\subsection{Desain penelitian}\label{desain-penelitian}
+
+Penelitian ini menerapkan desain pra-eksperimental satu kelompok
+pretest--posttest \\citep{creswell2018item}. Partisipan menyusun
+rencana pembelajaran sebelum dan sesudah intervensi PjBL; kualitasnya
+dinilai dengan rubrik terstandar pada tiga dimensi integrasi, yaitu
+TPACK, STEM, dan ESD. Desain ini dipilih karena penelitian berfokus pada
+pendokumentasian perubahan kompetensi setelah intervensi serta pemodelan
+hubungan struktural antara kualitas implementasi PjBL, dimensi
+integrasi, dan kualitas rencana pembelajaran menggunakan PLS-SEM, bukan
+pada pembuktian kausal yang ketat melalui perbandingan antar-kelompok.
+
+\subsection{Partisipan}\label{partisipan}
+
+Partisipan penelitian ini terdiri atas 95 calon guru IPA pada program
+studi Pendidikan IPA sebuah universitas Pendidikan negeri di Semarang
+Indonesia. Seluruh partisipan merupakan mahasiswa sarjana tahun ketiga
+atau keempat yang telah menuntaskan mata kuliah dasar konten sains,
+pedagogi umum, dan teknologi pendidikan. Sampel dipilih secara purposif,
+yakni mahasiswa yang sekaligus mengambil mata kuliah Strategi dan Desain
+Pembelajaran IPA sebagai konteks natural pelaksanaan intervensi PjBL.
+Ukuran sampel (N=95) melampaui ambang minimum PLS-SEM; \\citet{hair2022item} merekomendasikan minimal 10 kali jumlah maksimum jalur struktural
+yang menuju satu konstruk (pada model ini, empat jalur menuju konstruk
+RPP, sehingga minimum 40).
+
+\subsection{Intervensi: implementasi
+PjBL}\label{intervensi-implementasi-pjbl}
+
+Intervensi PjBL dilaksanakan selama 16 kali pertemuan melalui sesi yang
+terstruktur. Partisipan mengikuti siklus proyek untuk menyusun rencana
+pembelajaran integratif yang memadukan TPACK, STEM, dan ESD secara
+simultan. Intervensi mengacu pada lima tahap yang diadaptasi dari
+\\citet{krajcik2014item}: (1) Orientasi dan pertanyaan pendorong; (2)
+Perencanaan dan investigasi; (3) Penciptaan artefak. (4) Peer review dan
+revisi; (5) Presentasi dan refleksi.
+
+Kualitas implementasi PjBL dievaluasi melalui instrumen observasi yang
+diisi oleh 10 observer.
+
+\subsection{Instrumen}\label{instrumen}
+
+\subsection{Rubrik rencana pembelajaran integratif
+(pretest-posttest)}\label{rubrik-rencana-pembelajaran-integratif-pretest-posttest}
+
+Instrumen utama adalah rubrik untuk mengevaluasi kualitas rencana
+pembelajaran integratif, diskor pada skala Likert empat poin (1 = tidak
+memenuhi kriteria, 2 = sebagian memenuhi, 3 = memenuhi, 4 = melampaui
+kriteria). Rubrik menilai tiga dimensi integrasi yang terdiri dari 14
+indikator:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  TPACK (7 indikator): TK, PK, CK, TPK, TCK, PCK, TPACK integratif.
+\item
+  STEM (4 indikator): Integrasi konten Sains (S), Aplikasi Teknologi
+  (T), Proses desain Teknik/Engineering (E), dan Penalaran Matematis
+  (M).
+\item
+  ESD (3 indikator): ESD-Pedagogical Content Knowledge (ESD-PCK),
+  ESD-Inquiry (ESD-INQ), dan ESD-Evaluative thinking (ESD-EVA).
+\end{enumerate}
+
+Skor komposit setiap dimensi dihitung sebagai rata-rata (mean) dari
+indikator penyusunnya. Skor kualitas keseluruhan rencana pembelajaran
+integratif (RPPInt\_total) dihitung sebagai grand mean dari 14
+indikator. Rubrik disusun melalui penilaian ahli oleh lima spesialis
+pendidikan IPA dan menunjukkan validitas konten yang memadai.
+
+\subsection{Instrumen observasi implementasi
+PjBL}\label{instrumen-observasi-implementasi-pjbl}
+
+Kualitas implementasi PjBL diukur menggunakan instrumen observasi lima
+item, dengan setiap item diskor pada skala 1--4 yang sesuai dengan lima
+tahap PjBL. Instrumen diisi oleh instruktur mata kuliah yang
+mengobservasi proses implementasi.
+
+\subsection{Prosedur pengumpulan data}\label{prosedur-pengumpulan-data}
+
+Pengumpulan data mengikuti timeline tiga tahap: (a) pretest; (b)
+intervensi PjBL; dan (c) posttest. Rencana pembelajaran dianonimkan
+sebelum penskoran untuk mengurangi bias penilai.
+
+\subsection{Analisis data}\label{analisis-data}
+
+Analisis data berlangsung dalam dua fase.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  Fase 1: Perbandingan pre-post (RQ1)
+\end{enumerate}
+
+Analisis yang dilakukan untuk menjawab RQ1: Statistik deskriptif (mean,
+standar deviasi, minimum, maksimum); Uji normalitas (uji Shapiro-Wilk),
+Uji inferensial berpasangan (paired-samples t-test untuk data
+terdistribusi normal, dan uji Wilcoxon signed-rank untuk data
+terdistribusi tidak normal dengan \(\alpha = 0,05)\); Effect sizes
+(Cohen's \(d\) untuk uji parametrik dan korelasi rank-biserial \(r\)
+untuk uji non-parametrik). Effect sizes diinterpretasikan mengikuti
+\\citet{cohen1988item}: kecil (\(d = 0,2\)), sedang (\(d = 0,5\)), dan besar
+(\(d = 0,8\)). Normalized gain (N-Gain) dihitung menggunakan formula
+\\citet{hake1998interactiveengagement}: N-Gain \(= \frac{post - pre}{\max - pre}\), di mana max
+\(= 4\) (skor rubrik maksimum). Nilai N-Gain dikategorikan sebagai
+Tinggi (\(> 0,7\)), Sedang (\(0,3\)--\(0,7\)), atau Rendah (\(< 0,3\)).
+Seluruh analisis Fase 1 dilakukan di Python 3.11 menggunakan pandas,
+scipy, dan pingouin.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Fase 2: Structural equation modeling (RQ2--RQ5)
+\end{enumerate}
+
+Partial Least Squares Structural Equation Modeling (PLS-SEM) digunakan
+untuk menjawab RQ2 sampai RQ5 karena: (a) sifat
+eksploratori-konfirmatori penelitian; (b) inklusi konstruk indikator
+tunggal; (c) ukuran sampel moderat (\(N = 95\)); dan (d) kapasitas
+PLS-SEM untuk menangani data non-normal dan pengukuran formatif \\citep{hair2022item}.
+
+\emph{Spesifikasi model.} Model struktural terdiri dari lima konstruk:
+PjBL (eksogen), TPACK, STEM, ESD, dan RPP (endogen). Seluruh konstruk
+dispesifikasikan sebagai reflektif (Mode A). Jalur struktural mencakup
+tujuh hubungan: PjBL \(\rightarrow\) TPACK, PjBL \(\rightarrow\) STEM,
+PjBL \(\rightarrow\) ESD, PjBL \(\rightarrow\) RPP (langsung), TPACK
+\(\rightarrow\) RPP, STEM \(\rightarrow\) RPP, dan ESD \(\rightarrow\)
+RPP. Konstruk RPP dioperasionalisasikan sebagai konstruk indikator
+tunggal menggunakan skor kualitas rencana pembelajaran integratif
+komposit (RPPInt\_total\_post), dengan loading indikator difiksasi ke
+1,000. Matriks data untuk analisis SEM menggunakan skor posttest untuk
+TPACK, STEM, ESD, dan RPP, serta skor observasi PjBL, menghasilkan 19
+variabel manifes.
+
+\emph{Evaluasi model pengukuran.} Model outer (pengukuran) dinilai
+menggunakan kriteria PLS-SEM standar \\citep{hair2022item}:
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  Reliabilitas indikator: outer loadings \(\geq 0,708\) (indikator
+  antara 0,40 dan 0,70 dipertahankan jika penghapusannya tidak
+  meningkatkan AVE atau CR, mengikuti rekomendasi \\citet{hair2022item}
+  untuk
+  penelitian eksploratori).
+\item
+  Validitas konvergen: Average Variance Extracted (AVE) \(\geq 0,50\).
+\item
+  Reliabilitas konsistensi internal: Composite Reliability (CR)
+  \(\geq 0,70\) dan Cronbach's \(\alpha \geq 0,70\).
+\item
+  Validitas diskriminan: rasio Heterotrait-Monotrait (HTMT) \(< 0,90\)
+  \\citep{henseler2015anew}, dilengkapi dengan kriteria Fornell-Larcker.
+\end{enumerate}
+
+\emph{Evaluasi model struktural.} Model inner (struktural) dinilai
+melalui: Koefisien jalur (\(\beta\)); Signifikansi statistic; Koefisien
+determinasi (\(R^{2}\)); Effect size (\(f^{2}\)); Relevansi prediktif
+(\(Q^{2}\))
+
+\emph{Analisis komparatif (RQ3).} Pengaruh relatif PjBL terhadap setiap
+dimensi integrasi dinilai dengan membandingkan koefisien jalur dan nilai
+\(f^{2}\) terkait.
+
+\emph{Analisis mediasi (RQ5).} Efek tidak langsung dihitung sebagai
+produk koefisien jalur penyusun. Signifikansi statistik efek tidak
+langsung ditentukan melalui metode confidence interval bootstrap
+\\citep{preacher2008asymptoticand}: efek tidak langsung dianggap signifikan jika
+confidence interval percentile 95\% tidak mencakup nol. Uji Sobel juga
+dihitung sebagai cross-check. Variance Accounted For (VAF) dihitung
+untuk mengklasifikasikan tipe mediasi: mediasi penuh (VAF \(> 80\%\)),
+mediasi parsial (\(20\% <\) VAF \(< 80\%\)), atau tanpa mediasi (VAF
+\(< 20\%\)) \\citep{hair2022item}.
+
+\emph{Perangkat lunak.} Analisis PLS-SEM dilakukan menggunakan paket
+Python plspm (versi 0.5.7) dengan random seed 42 untuk reprodusibilitas.
+Seluruh prosedur bootstrap menggunakan 5.000 iterasi dengan konfigurasi
+single-process untuk memastikan eksekusi deterministik. Gambar
+dihasilkan menggunakan matplotlib.

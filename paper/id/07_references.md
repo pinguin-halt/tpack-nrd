@@ -46,6 +46,44 @@ Shumba, O., & Kampamba, R. (2013). Mainstreaming ESD into science teacher educat
 
 Tucker, S. I., Lommatsch, C. W., Burroughs, E. A., & Yopp, D. (2024). Examining STEM integration in elementary mathematics methods courses. *Journal of Research in STEM Education, 10*(SI), Article 313. https://doi.org/10.31756/jrsmte.313si
 
+Beckmann, T., & Ehmke, T. (2023). Informal and formal lesson planning in school internships: Practices among pre-service teachers. *Teaching and Teacher Education, 132*, 104249. https://doi.org/10.1016/j.tate.2023.104249
+
+Benedict-Chambers, A., & Sherwood, C.-A. (2024). Planning for equitable student sensemaking: An examination of preservice teachers' noticing of elementary science lesson plans. *Journal of Science Teacher Education, 35*(8), 862-882. https://doi.org/10.1080/1046560X.2024.2356944
+
+Davis, E. A., & Bautista, J. (2024). Preservice teachers' early lesson planning for justice-oriented elementary science. *Journal of Science Teacher Education, 36*(4), 485-510. https://doi.org/10.1080/1046560X.2024.2428489
+
+Calero, M., Pina, T., Mayoral, O., Canto, J., Ull, M. A., & Vilches, A. (2024). A study about pre-service teachers' knowledge of the Sustainable Development Goals. *International Journal of Sustainability in Higher Education, 26*(2), 352-371. https://doi.org/10.1108/IJSHE-07-2023-0284
+
+Gurer, M. D., & Akkaya, R. (2021). The influence of pedagogical beliefs on technology acceptance: A structural equation modeling study of pre-service mathematics teachers. *Journal of Mathematics Teacher Education, 25*(4), 479-495. https://doi.org/10.1007/s10857-021-09504-5
+
+Karlstrom, M., & Hamza, K. M. (2021). How do we teach planning to pre-service teachers - A tentative model. *Journal of Science Teacher Education, 32*(6), 664-685. https://doi.org/10.1080/1046560X.2021.1875163
+
+Krepf, M., & Konig, J. (2022). Structuring the lesson: An empirical investigation of pre-service teacher decision-making during the planning of a demonstration lesson. *Journal of Education for Teaching, 49*(5), 911-926. https://doi.org/10.1080/02607476.2022.2151877
+
+Mansfield, J. (2022). Supporting the development of pre-service teachers' pedagogical knowledge about planning for practical work. *Journal of Science Teacher Education, 34*(3), 225-247. https://doi.org/10.1080/1046560X.2022.2042979
+
+Markula, A., & Aksela, M. (2022). The key characteristics of project-based learning: How teachers implement projects in K-12 science education. *Disciplinary and Interdisciplinary Science Education Research, 4*(1). https://doi.org/10.1186/s43031-021-00042-x
+
+Ozdemir-Yilmazer, M. (2025). Towards a holistic understanding of sustainable development in teacher education: Insights from pre-service teachers' cross-curricular lesson planning. *European Journal of Education, 60*(4). https://doi.org/10.1111/ejed.70229
+
+Pitot, L. N., McHugh, M. L., & Kosiak, J. (2024). Establishing a PBL STEM framework for pre-service teachers. *Education Sciences, 14*(6), 571. https://doi.org/10.3390/educsci14060571
+
+Pleasants, J., & Parrish, J. (2024). What makes this lesson engineering? What makes it science? Examining the thought processes of pre-service elementary teachers. *Journal of Science Teacher Education, 36*(2), 159-179. https://doi.org/10.1080/1046560X.2024.2380188
+
+Portillo-Blanco, A., Zuza, K., Gutierrez-Jimenez, E., Guisasola, J., & Gutierrez-Berraondo, J. (2025). Building an autonomous car: Designing, implementing, and evaluating an integrated STEM teaching-learning sequence for pre-service secondary teachers. *Education Sciences, 15*(4), 406. https://doi.org/10.3390/educsci15040406
+
+Singh-Pillay, A. (2023). Pre-service teachers' experience of learning about sustainability in technology education in South Africa. *Sustainability, 15*(3), 2149. https://doi.org/10.3390/su15032149
+
+Stinken-Rosner, L., Hofer, E., Rodenhauser, A., & Abels, S. (2023). Technology implementation in pre-service science teacher education based on the transformative view of TPACK: Effects on pre-service teachers' TPACK, behavioral orientations and actions in practice. *Education Sciences, 13*(7), 732. https://doi.org/10.3390/educsci13070732
+
+Tellez-Acosta, M. E., Acher, A., & McDonald, S. P. (2023). Pre-service elementary teachers learning to plan modeling-based investigations. *Journal of Science Teacher Education, 35*(3), 276-301. https://doi.org/10.1080/1046560X.2023.2256563
+
+Vidal, S., & Kuckuck, M. (2025). Pre-service teacher action competence in education for sustainable development: A scoping review. *Sustainability, 17*(9), 3856. https://doi.org/10.3390/su17093856
+
+Yuksel, A. O. (2025). Design-based STEM activities in teacher education and its effect on pre-service science teachers' design thinking skills. *Journal of Science Education and Technology*. https://doi.org/10.1007/s10956-025-10215-2
+
+Wu, B., Peng, X., & Hu, Y. (2021). How to foster pre-service teachers' STEM learning design expertise through virtual internship: A design-based research. *Educational Technology Research and Development, 69*(6), 3307-3329. https://doi.org/10.1007/s11423-021-10063-y
+
 UNECE. (2012). *Learning for the future: Competences in education for sustainable development* (ECE/CEP/AC.13/2012/6). United Nations Economic Commission for Europe. https://unece.org/fileadmin/DAM/env/esd/ESD_Publications/Competences_Publication.pdf
 
 UNESCO. (2017). *Education for Sustainable Development Goals: Learning objectives*. UNESCO Publishing. https://doi.org/10.54675/CGBA9153
